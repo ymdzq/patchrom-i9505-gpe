@@ -9293,23 +9293,18 @@
 
     move-object/from16 v6, p4
 
-    .line 1479
     invoke-direct/range {v1 .. v6}, Lcom/android/server/LocationManagerService;->requestLocationUpdatesLocked(Landroid/location/LocationRequest;Lcom/android/server/LocationManagerService$Receiver;IILjava/lang/String;)V
 
-    .line 1482
     :cond_3
     monitor-exit v13
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 1484
     :cond_4
     invoke-static {v10, v11}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    .line 1486
     return-void
 
-    .line 1482
     .end local v3    # "receiver":Lcom/android/server/LocationManagerService$Receiver;
     :catchall_0
     move-exception v1
