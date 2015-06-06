@@ -296,7 +296,7 @@
 
     iget-object v3, p0, Lcom/android/server/MasterClearReceiver$1;->val$intent:Landroid/content/Intent;
 
-    const-string v4 "format_sdcard"
+    const-string v4, "format_sdcard"
 
     const/4 v5, 0x0
 
