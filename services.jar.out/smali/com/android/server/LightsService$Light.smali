@@ -128,7 +128,7 @@
 
     .prologue
     .line 152
-    invoke-direct/range {p0 .. p5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
+    invoke-virtual/range {p0 .. p5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
 
     return-void
 .end method
@@ -362,7 +362,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
+    invoke-virtual/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
@@ -753,7 +753,7 @@
     move v4, p4
 
     :try_start_5
-    invoke-direct/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
+    invoke-virtual/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
@@ -973,7 +973,7 @@
     move-object v0, p0
 
     :try_start_5
-    invoke-direct/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
+    invoke-virtual/range {v0 .. v5}, Lcom/android/server/LightsService$Light;->setLightLocked(IIIII)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 

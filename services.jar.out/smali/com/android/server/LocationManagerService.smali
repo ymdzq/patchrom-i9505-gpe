@@ -9303,6 +9303,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 1484
+    :cond_4
     invoke-static {v10, v11}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 1486

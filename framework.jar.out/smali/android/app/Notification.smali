@@ -201,6 +201,7 @@
     .locals 2
 
     .prologue
+    .line 673
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Landroid/app/MiuiNotification;
@@ -209,26 +210,31 @@
 
     iput-object v0, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
 
+    .line 230
     const/4 v0, -0x1
 
     iput v0, p0, Landroid/app/Notification;->audioStreamType:I
 
+    .line 441
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     iput-object v0, p0, Landroid/app/Notification;->extras:Landroid/os/Bundle;
 
+    .line 674
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Landroid/app/Notification;->when:J
 
+    .line 675
     const/4 v0, 0x0
 
     iput v0, p0, Landroid/app/Notification;->priority:I
 
+    .line 676
     return-void
 .end method
 
@@ -241,6 +247,7 @@
     .end annotation
 
     .prologue
+    .line 705
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Landroid/app/MiuiNotification;
@@ -249,22 +256,28 @@
 
     iput-object v0, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
 
+    .line 230
     const/4 v0, -0x1
 
     iput v0, p0, Landroid/app/Notification;->audioStreamType:I
 
+    .line 441
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     iput-object v0, p0, Landroid/app/Notification;->extras:Landroid/os/Bundle;
 
+    .line 706
     iput p1, p0, Landroid/app/Notification;->icon:I
 
+    .line 707
     iput-object p2, p0, Landroid/app/Notification;->tickerText:Ljava/lang/CharSequence;
 
+    .line 708
     iput-wide p3, p0, Landroid/app/Notification;->when:J
 
+    .line 709
     return-void
 .end method
 
@@ -281,6 +294,7 @@
     .prologue
     const/4 v1, 0x0
 
+    .line 683
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Landroid/app/MiuiNotification;
@@ -289,28 +303,35 @@
 
     iput-object v0, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
 
+    .line 230
     const/4 v0, -0x1
 
     iput v0, p0, Landroid/app/Notification;->audioStreamType:I
 
+    .line 441
     new-instance v0, Landroid/os/Bundle;
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     iput-object v0, p0, Landroid/app/Notification;->extras:Landroid/os/Bundle;
 
+    .line 684
     iput-wide p4, p0, Landroid/app/Notification;->when:J
 
+    .line 685
     iput p2, p0, Landroid/app/Notification;->icon:I
 
+    .line 686
     iput-object p3, p0, Landroid/app/Notification;->tickerText:Ljava/lang/CharSequence;
 
+    .line 687
     invoke-static {p1, v1, p8, v1}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object v0
 
     invoke-virtual {p0, p1, p6, p7, v0}, Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
+    .line 689
     return-void
 .end method
 
@@ -319,6 +340,7 @@
     .param p1, "parcel"    # Landroid/os/Parcel;
 
     .prologue
+    .line 715
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v1, Landroid/app/MiuiNotification;
@@ -327,20 +349,24 @@
 
     iput-object v1, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
 
+    .line 230
     const/4 v1, -0x1
 
     iput v1, p0, Landroid/app/Notification;->audioStreamType:I
 
+    .line 441
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     iput-object v1, p0, Landroid/app/Notification;->extras:Landroid/os/Bundle;
 
+    .line 716
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
+    .line 718
     .local v0, "version":I
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
@@ -655,11 +681,9 @@
 
     .line 774
     :cond_9
-    iget-object v7, p1, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
+    iget-object v1, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
 
-    iget-object v8, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
-
-    invoke-virtual {v7, v8}, Landroid/app/MiuiNotification;->setTo(Landroid/app/MiuiNotification;)V
+    invoke-virtual {v1, p1}, Landroid/app/MiuiNotification;->readFromParcel(Landroid/os/Parcel;)V
 
     return-void
 .end method
@@ -1098,6 +1122,12 @@
     iget-object v7, p0, Landroid/app/Notification;->contactCharSeq:Ljava/lang/CharSequence;
 
     iput-object v7, p1, Landroid/app/Notification;->contactCharSeq:Ljava/lang/CharSequence;
+
+    iget-object v7, p1, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
+
+    iget-object v8, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
+
+    invoke-virtual {v7, v8}, Landroid/app/MiuiNotification;->setTo(Landroid/app/MiuiNotification;)V
 
     .line 867
     return-void
@@ -1875,6 +1905,10 @@
 
     .line 999
     :goto_9
+    iget-object v0, p0, Landroid/app/Notification;->extraNotification:Landroid/app/MiuiNotification;
+
+    invoke-virtual {v0, p1, p2}, Landroid/app/MiuiNotification;->writeToParcel(Landroid/os/Parcel;I)V
+
     return-void
 
     .line 919

@@ -3848,10 +3848,18 @@
 
     invoke-static {v13, v14}, Landroid/telephony/Rlog;->e(Ljava/lang/String;Ljava/lang/String;)I
 
+    return-void
+
     .line 1613
     :cond_0
     :goto_0
     :sswitch_0
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p1
+
+    invoke-virtual {v0, v1}, Lcom/android/internal/telephony/gsm/GSMPhone;->checkAndNotifyDeviceId(Landroid/os/Message;)V
+	
     return-void
 
     .line 1412
