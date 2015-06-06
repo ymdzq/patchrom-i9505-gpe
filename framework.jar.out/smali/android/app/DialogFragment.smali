@@ -464,37 +464,34 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    .line 458
     invoke-super {p0, p1}, Landroid/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V
 
-    .line 460
     iget-boolean v2, p0, Landroid/app/DialogFragment;->mShowsDialog:Z
 
     if-nez v2, :cond_1
 
-    .line 483
     :cond_0
     :goto_0
     return-void
 
-    .line 464
     :cond_1
+    iget-object v2, p0, Landroid/app/DialogFragment;->mDialog:Landroid/app/Dialog;
+
+    if-eqz v2, :cond_0
+
     invoke-virtual {p0}, Landroid/app/DialogFragment;->getView()Landroid/view/View;
 
     move-result-object v1
 
-    .line 465
     .local v1, "view":Landroid/view/View;
     if-eqz v1, :cond_3
 
-    .line 466
     invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 467
     new-instance v2, Ljava/lang/IllegalStateException;
 
     const-string v3, "DialogFragment can not be attached to a container view"

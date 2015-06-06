@@ -924,19 +924,17 @@
 
     move-result v2
 
-    .line 1045
     .local v2, "mSavedPriority":I
     const/4 v3, -0x4
 
     invoke-static {v3}, Landroid/os/Process;->setThreadPriority(I)V
 
-    .line 1048
     invoke-static {}, Lcom/android/internal/os/SamplingProfilerIntegration;->start()V
 
-    .line 1050
+    invoke-static {}, Lmiui/security/SecurityManager;->init()V
+
     invoke-static {}, Lcom/android/internal/os/ZygoteInit;->registerZygoteSocket()V
 
-    .line 1051
     const/16 v3, 0xbcc
 
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
@@ -3013,6 +3011,13 @@
     return v0
 .end method
 
+.method private static preloadMiuiResources()V
+    .locals 0
+
+    .prologue
+    return-void
+.end method
+
 .method private static preloadOpenGL()V
     .locals 2
 
@@ -3144,6 +3149,8 @@
     move-result-object v7
 
     invoke-static {v6, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-static {}, Lcom/android/internal/os/ZygoteInit;->preloadMiuiResources()V
 
     .line 847
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
