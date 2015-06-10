@@ -94,7 +94,7 @@
     iget-object v0, p0, Lcom/android/server/LightsService$1;->this$0:Lcom/android/server/LightsService;
 
     # getter for: Lcom/android/server/LightsService;->mContext:Landroid/content/Context;
-    invoke-static {v0}, Lcom/android/server/LightsService;->access$300(Lcom/android/server/LightsService;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/android/server/LightsService;->access$1500(Lcom/android/server/LightsService;)Landroid/content/Context;
 
     move-result-object v0
 
