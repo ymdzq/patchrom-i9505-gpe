@@ -56,7 +56,7 @@ then
             echo "rm file: $file"
             rm -rf "$file"
     done
-    #cp -rf overlay/framework/smali/* $BUILD_OUT/framework/smali
+    cp -rf overlay/framework/smali/* $BUILD_OUT/framework/smali
     cp -rf ../android/Editor/* $BUILD_OUT/framework/smali/android/widget/
 fi
 
@@ -75,6 +75,11 @@ then
             rm -rf "$file"
     done
     cp -rf overlay/framework2/smali/* $BUILD_OUT/framework2/smali
+fi
+
+if [ $2 = "$BUILD_OUT/services" ]
+then
+    cp -rf overlay/services/smali/* $BUILD_OUT/services/smali
 fi
 
 if [ $2 = "$BUILD_OUT/telephony-common" ]
