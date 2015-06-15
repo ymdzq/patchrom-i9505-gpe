@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">ระดับเสียงของสื่อ</string>
     <string name="volume_icon_description_notification">ระดับเสียงของการแจ้งเตือน</string>
     <string name="ringtone_default">เสียงเรียกเข้าเริ่มต้น</string>
-    <string name="ringtone_default_with_actual">ไม่มี</string>
-    <string name="ringtone_silent">เสียงเรียกเข้า</string>
+    <string name="ringtone_default_with_actual">เสียงเรียกเข้าเริ่มต้น (%1$s)</string>
+    <string name="ringtone_silent">ไม่มี</string>
     <string name="ringtone_picker_title">เสียงเรียกเข้า</string>
     <string name="ringtone_unknown">ไม่ทราบเสียงเรียกเข้า</string>
     <string name="wifi_available_sign_in">ลงชื่อเข้าใช้เครือข่าย WiFi</string>

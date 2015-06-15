@@ -4532,7 +4532,6 @@
     <public type="string" name="webviewchromium_profiler_stopped_toast" id="0x01040691" />
     <public type="string" name="webviewchromium_profiler_no_storage_toast" id="0x01040692" />
     <public type="string" name="webviewchromium_profiler_error_toast" id="0x01040693" />
-    <public type="string" name="reboot" id="0x01040694" />
     <public type="string" name="permlab_accessAllPrintJobs" id="0x0104061f" />
     <public type="string" name="permdesc_accessAllPrintJobs" id="0x01040620" />
     <public type="string" name="status_bar_device_locked" id="0x01040621" />
@@ -6596,7 +6595,6 @@
     <public type="drawable" name="transportcontrol_bg" id="0x01080670" />
     <public type="drawable" name="vpn_connected" id="0x0108067a" />
     <public type="drawable" name="vpn_disconnected" id="0x0108067b" />
-    <public type="drawable" name="ic_lock_reboot" id="0x01080693" />
     <public type="drawable" name="APKTOOL_DUMMY_05fb" id="0x010805fb" />
     <public type="layout" name="activity_list_item" id="0x01090000" />
     <public type="layout" name="expandable_list_content" id="0x01090001" />

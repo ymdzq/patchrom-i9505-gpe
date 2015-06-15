@@ -1004,8 +1004,8 @@
     <string name="volume_icon_description_media">メディアの音量</string>
     <string name="volume_icon_description_notification">通知音量</string>
     <string name="ringtone_default">プリセット着信音</string>
-    <string name="ringtone_default_with_actual">なし</string>
-    <string name="ringtone_silent">着信音</string>
+    <string name="ringtone_default_with_actual">端末の基本着信音（%1$s）</string>
+    <string name="ringtone_silent">なし</string>
     <string name="ringtone_picker_title">着信音</string>
     <string name="ringtone_unknown">不明な着信音</string>
     <string name="wifi_available_sign_in">Wi-Fiネットワークにログイン</string>

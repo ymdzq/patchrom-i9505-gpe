@@ -1003,8 +1003,8 @@ Chcete ju zavrieť?"</string>
     <string name="volume_icon_description_media">Hlasitosť médií</string>
     <string name="volume_icon_description_notification">Hlasitosť upozornení</string>
     <string name="ringtone_default">Predvolený tón zvonenia</string>
-    <string name="ringtone_default_with_actual">Žiadny</string>
-    <string name="ringtone_silent">Vyzváňacie tóny</string>
+    <string name="ringtone_default_with_actual">Predvolený tón zvonenia (%1$s)</string>
+    <string name="ringtone_silent">Žiadny</string>
     <string name="ringtone_picker_title">Vyzváňacie tóny</string>
     <string name="ringtone_unknown">Neznámy tón zvonenia</string>
     <string name="wifi_available_sign_in">Prihlásenie sa do siete Wi-Fi</string>

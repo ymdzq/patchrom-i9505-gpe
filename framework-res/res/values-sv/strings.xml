@@ -1003,8 +1003,8 @@ Vill du stänga sidan?"</string>
     <string name="volume_icon_description_media">Mediavolym</string>
     <string name="volume_icon_description_notification">Meddelandevolym</string>
     <string name="ringtone_default">Standardringsignal</string>
-    <string name="ringtone_default_with_actual">Ingen</string>
-    <string name="ringtone_silent">Ringsignaler</string>
+    <string name="ringtone_default_with_actual">Standardringsignal (%1$s)</string>
+    <string name="ringtone_silent">Ingen</string>
     <string name="ringtone_picker_title">Ringsignaler</string>
     <string name="ringtone_unknown">Okänd ringsignal</string>
     <string name="wifi_available_sign_in">Logga in på Wi-Fi-nätverk</string>

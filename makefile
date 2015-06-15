@@ -56,4 +56,10 @@ local-pre-zip-misc:
 	cp -rf stockrom/system/bin/dexopt $(ZIP_DIR)/system/bin/dexopt
 
 	@echo Delete some unneeded files
-	#rm -rf $(ZIP_DIR)/system/csc/common
+	#rm -rf $(ZIP_DIR)/system/csc
+	rm -rf $(ZIP_DIR)/system/lib/libchrome.1916.141.so
+	rm -rf $(ZIP_DIR)/system/lib/libearthandroid.so
+	rm -rf $(ZIP_DIR)/system/lib/libearthmobile.so
+	rm -rf $(ZIP_DIR)/system/lib/libvideochat_jni.so
+	rm -rf $(ZIP_DIR)/system/preloaddata
+	rm -rf $(ZIP_DIR)/system/wallpaper

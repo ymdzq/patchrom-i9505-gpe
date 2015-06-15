@@ -1003,8 +1003,8 @@ Möchten Sie die Seite schließen?"</string>
     <string name="volume_icon_description_media">Medienlautstärke</string>
     <string name="volume_icon_description_notification">Benachrichtigungslautstärke</string>
     <string name="ringtone_default">Standard-Klingelton</string>
-    <string name="ringtone_default_with_actual">Keine</string>
-    <string name="ringtone_silent">Klingeltöne</string>
+    <string name="ringtone_default_with_actual">Standard-Klingelton (%1$s)</string>
+    <string name="ringtone_silent">Keine</string>
     <string name="ringtone_picker_title">Klingeltöne</string>
     <string name="ringtone_unknown">Unbekannter Klingelton</string>
     <string name="wifi_available_sign_in">Im WLAN-Netzwerk anmelden</string>

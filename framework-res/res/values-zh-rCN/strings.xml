@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">媒体音量</string>
     <string name="volume_icon_description_notification">通知音量</string>
     <string name="ringtone_default">默认铃声</string>
-    <string name="ringtone_default_with_actual">无</string>
-    <string name="ringtone_silent">铃声</string>
+    <string name="ringtone_default_with_actual">默认铃声（%1$s）</string>
+    <string name="ringtone_silent">无</string>
     <string name="ringtone_picker_title">铃声</string>
     <string name="ringtone_unknown">未知铃声</string>
     <string name="wifi_available_sign_in">登录到 WLAN 网络</string>

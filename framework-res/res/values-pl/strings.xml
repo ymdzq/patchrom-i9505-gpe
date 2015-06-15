@@ -1003,8 +1003,8 @@ Zamknąć ją?"</string>
     <string name="volume_icon_description_media">Głośność multimediów</string>
     <string name="volume_icon_description_notification">Głośność powiadomień</string>
     <string name="ringtone_default">Dzwonek domyślny</string>
-    <string name="ringtone_default_with_actual">Brak</string>
-    <string name="ringtone_silent">Dzwonki</string>
+    <string name="ringtone_default_with_actual">Dzwonek domyślny (%1$s)</string>
+    <string name="ringtone_silent">Brak</string>
     <string name="ringtone_picker_title">Dzwonki</string>
     <string name="ringtone_unknown">Nieznany dzwonek</string>
     <string name="wifi_available_sign_in">Zaloguj się do sieci Wi-Fi.</string>

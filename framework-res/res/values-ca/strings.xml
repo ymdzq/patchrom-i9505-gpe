@@ -1003,8 +1003,8 @@ Vols tancar-la?"</string>
     <string name="volume_icon_description_media">Volum de multimèdia</string>
     <string name="volume_icon_description_notification">Volum de notificació</string>
     <string name="ringtone_default">To predeterminat</string>
-    <string name="ringtone_default_with_actual">Cap</string>
-    <string name="ringtone_silent">Sons de trucada</string>
+    <string name="ringtone_default_with_actual">To predeterminat (%1$s)</string>
+    <string name="ringtone_silent">Cap</string>
     <string name="ringtone_picker_title">Sons de trucada</string>
     <string name="ringtone_unknown">To desconegut</string>
     <string name="wifi_available_sign_in">Inicia la sessió a la xarxa Wi-Fi</string>

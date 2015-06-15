@@ -974,8 +974,8 @@
     <string name="volume_icon_description_media">Մեդիա ձայնի բարձրություն</string>
     <string name="volume_icon_description_notification">Ծանուցումների ձայնի ուժգնությունը</string>
     <string name="ringtone_default">Լռելյայն զանգերանգ</string>
-    <string name="ringtone_default_with_actual">Ոչ մեկը</string>
-    <string name="ringtone_silent">Զանգերանգներ</string>
+    <string name="ringtone_default_with_actual">Լռելյայն զանգերանգ (%1$s)</string>
+    <string name="ringtone_silent">Ոչ մեկը</string>
     <string name="ringtone_picker_title">Զանգերանգներ</string>
     <string name="ringtone_unknown">Անհայտ զանգերանգ</string>
     <string name="wifi_available_sign_in">Մուտք գործեք Wi-Fi ցանց</string>

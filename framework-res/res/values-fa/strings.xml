@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">میزان صدای رسانه</string>
     <string name="volume_icon_description_notification">میزان صدای اعلان</string>
     <string name="ringtone_default">آهنگ زنگ پیش‌فرض</string>
-    <string name="ringtone_default_with_actual">هیچکدام</string>
-    <string name="ringtone_silent">آهنگ‌های زنگ</string>
+    <string name="ringtone_default_with_actual">آهنگ زنگ پیش‌فرض (%1$s)</string>
+    <string name="ringtone_silent">هیچکدام</string>
     <string name="ringtone_picker_title">آهنگ‌های زنگ</string>
     <string name="ringtone_unknown">آهنگ زنگ ناشناس</string>
     <string name="wifi_available_sign_in">‏ورود به شبکه Wi-Fi</string>

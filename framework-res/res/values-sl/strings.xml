@@ -1003,8 +1003,8 @@ Ali jo želite zapreti?"</string>
     <string name="volume_icon_description_media">Glasnost predstavnosti</string>
     <string name="volume_icon_description_notification">Glasnost obvestila</string>
     <string name="ringtone_default">Privzeta melodija zvonjenja</string>
-    <string name="ringtone_default_with_actual">Brez</string>
-    <string name="ringtone_silent">Melodije zvonjenja</string>
+    <string name="ringtone_default_with_actual">Privzeta melodija zvonjenja (%1$s)</string>
+    <string name="ringtone_silent">Brez</string>
     <string name="ringtone_picker_title">Melodije zvonjenja</string>
     <string name="ringtone_unknown">Neznana melodija zvonjenja</string>
     <string name="wifi_available_sign_in">Prijava v omrežje Wi-Fi</string>

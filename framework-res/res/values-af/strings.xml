@@ -1003,8 +1003,8 @@ Wil jy dit toemaak?"</string>
     <string name="volume_icon_description_media">Mediavolume</string>
     <string name="volume_icon_description_notification">Kennisgewing-volume</string>
     <string name="ringtone_default">Verstek luitoon</string>
-    <string name="ringtone_default_with_actual">Geen</string>
-    <string name="ringtone_silent">Luitone</string>
+    <string name="ringtone_default_with_actual">Verstek luitoon (%1$s)</string>
+    <string name="ringtone_silent">Geen</string>
     <string name="ringtone_picker_title">Luitone</string>
     <string name="ringtone_unknown">Onbekende luitoon</string>
     <string name="wifi_available_sign_in">Meld aan by Wi-Fi-netwerk</string>

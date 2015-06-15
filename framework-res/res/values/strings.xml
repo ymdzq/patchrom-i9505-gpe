@@ -1103,8 +1103,8 @@ Do you want to close it?"</string>
     <string name="volume_icon_description_media">Media volume</string>
     <string name="volume_icon_description_notification">Notification volume</string>
     <string name="ringtone_default">Default ringtone</string>
-    <string name="ringtone_default_with_actual">None</string>
-    <string name="ringtone_silent">Ringtones</string>
+    <string name="ringtone_default_with_actual">Default ringtone (%1$s)</string>
+    <string name="ringtone_silent">None</string>
     <string name="ringtone_picker_title">Ringtones</string>
     <string name="ringtone_unknown">Unknown ringtone</string>
     <string name="wifi_available_sign_in">Sign into Wi-Fi network</string>
@@ -1671,5 +1671,4 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="webviewchromium_profiler_stopped_toast">Profiler finished. Results are in %1$s.</string>
     <string name="webviewchromium_profiler_no_storage_toast">"Can't start profiler because external storage is not ready"</string>
     <string name="webviewchromium_profiler_error_toast">Failed to start profiler</string>
-    <string name="reboot">Reboot</string>
 </resources>

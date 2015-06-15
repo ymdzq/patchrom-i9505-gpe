@@ -1003,8 +1003,8 @@ Doriţi să o închideţi?"</string>
     <string name="volume_icon_description_media">Volumul media</string>
     <string name="volume_icon_description_notification">Volum notificare</string>
     <string name="ringtone_default">Ton de apel prestabilit</string>
-    <string name="ringtone_default_with_actual">Niciunul</string>
-    <string name="ringtone_silent">Tonuri de apel</string>
+    <string name="ringtone_default_with_actual">Ton de apel prestabilit (%1$s)</string>
+    <string name="ringtone_silent">Niciunul</string>
     <string name="ringtone_picker_title">Tonuri de apel</string>
     <string name="ringtone_unknown">Ton de apel necunoscut</string>
     <string name="wifi_available_sign_in">Conectaţi-vă în reţeaua Wi-Fi</string>

@@ -1003,8 +1003,8 @@ accede a la página "<b>google.com/accounts/recovery</b>.</string>
     <string name="volume_icon_description_media">Volumen multimedia</string>
     <string name="volume_icon_description_notification">Volumen de notificaciones</string>
     <string name="ringtone_default">Tono predeterminado</string>
-    <string name="ringtone_default_with_actual">Ninguno</string>
-    <string name="ringtone_silent">Tonos</string>
+    <string name="ringtone_default_with_actual">Tono predeterminado (%1$s)</string>
+    <string name="ringtone_silent">Ninguno</string>
     <string name="ringtone_picker_title">Tonos</string>
     <string name="ringtone_unknown">Tono desconocido</string>
     <string name="wifi_available_sign_in">Iniciar sesión en red Wi-Fi</string>

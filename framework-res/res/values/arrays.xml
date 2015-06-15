@@ -437,10 +437,16 @@
     <array name="config_usbHostBlacklist" />
     <array name="config_serialPorts" />
     <integer-array name="config_longPressVibePattern">
-        <item>10</item>
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
     </integer-array>
     <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
         <item>10</item>
+        <item>20</item>
+        <item>30</item>
     </integer-array>
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
@@ -448,10 +454,16 @@
     <integer-array name="config_safeModeDisabledVibePattern">
         <item>0</item>
         <item>1</item>
+        <item>20</item>
+        <item>21</item>
     </integer-array>
     <integer-array name="config_safeModeEnabledVibePattern">
         <item>0</item>
         <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
     </integer-array>
     <integer-array name="config_scrollBarrierVibePattern">
         <item>0</item>
@@ -460,18 +472,22 @@
         <item>10</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>40</item>
-        <item>200</item>
-        <item>450</item>
-        <item>1400</item>
-        <item>2000</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>100</item>
+        <item>150</item>
+        <item>210</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>10</item>
         <item>20</item>
         <item>40</item>
-        <item>80</item>
-        <item>130</item>
-        <item>255</item>
+        <item>70</item>
+        <item>110</item>
+        <item>160</item>
+        <item>200</item>
         <item>255</item>
     </integer-array>
     <array name="config_autoBrightnessButtonBacklightValues" />

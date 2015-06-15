@@ -1003,8 +1003,8 @@ Pretende fechá-la?"</string>
     <string name="volume_icon_description_media">Volume de multimédia</string>
     <string name="volume_icon_description_notification">Volume de notificações</string>
     <string name="ringtone_default">Toque predefinido</string>
-    <string name="ringtone_default_with_actual">Nada</string>
-    <string name="ringtone_silent">Toques</string>
+    <string name="ringtone_default_with_actual">Toque predefinido (%1$s)</string>
+    <string name="ringtone_silent">Nada</string>
     <string name="ringtone_picker_title">Toques</string>
     <string name="ringtone_unknown">Toque desconhecido</string>
     <string name="wifi_available_sign_in">Iniciar sessão na rede Wi-Fi</string>

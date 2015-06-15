@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">Ένταση ήχου πολυμέσων</string>
     <string name="volume_icon_description_notification">Ένταση ήχου ειδοποιήσεων</string>
     <string name="ringtone_default">Προεπιλεγμένος ήχος κλήσης</string>
-    <string name="ringtone_default_with_actual">Κανένας</string>
-    <string name="ringtone_silent">Ήχοι κλήσης</string>
+    <string name="ringtone_default_with_actual">Προεπιλεγμένος ήχος κλήσης (%1$s)</string>
+    <string name="ringtone_silent">Κανένας</string>
     <string name="ringtone_picker_title">Ήχοι κλήσης</string>
     <string name="ringtone_unknown">Άγνωστος ήχος κλήσης</string>
     <string name="wifi_available_sign_in">Σύνδεση στο δίκτυο Wi-Fi</string>

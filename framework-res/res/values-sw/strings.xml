@@ -1003,8 +1003,8 @@ Unataka kuifunga?"</string>
     <string name="volume_icon_description_media">Sauti ya midia</string>
     <string name="volume_icon_description_notification">Sauti ya arifa</string>
     <string name="ringtone_default">Mlio chaguo-msingi</string>
-    <string name="ringtone_default_with_actual">Hamna</string>
-    <string name="ringtone_silent">Toni za mlio</string>
+    <string name="ringtone_default_with_actual">Mlio chaguo-msingi (%1$s)</string>
+    <string name="ringtone_silent">Hamna</string>
     <string name="ringtone_picker_title">Toni za mlio</string>
     <string name="ringtone_unknown">Mlio amabo haujulikani</string>
     <string name="wifi_available_sign_in">Ingia kwenye mtandao wa Wi-Fi</string>

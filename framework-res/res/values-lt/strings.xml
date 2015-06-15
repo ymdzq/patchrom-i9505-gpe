@@ -1003,8 +1003,8 @@ Ar norite jį uždaryti?"</string>
     <string name="volume_icon_description_media">Medijos garsumas</string>
     <string name="volume_icon_description_notification">Pranešimo apimtis</string>
     <string name="ringtone_default">Numatytasis skambėjimo tonas</string>
-    <string name="ringtone_default_with_actual">Nėra</string>
-    <string name="ringtone_silent">Skambėjimo tonai</string>
+    <string name="ringtone_default_with_actual">Numatytasis skambėjimo tonas (%1$s)</string>
+    <string name="ringtone_silent">Nėra</string>
     <string name="ringtone_picker_title">Skambėjimo tonai</string>
     <string name="ringtone_unknown">Nežinomas skambėjimo tonas</string>
     <string name="wifi_available_sign_in">Prisijungti prie „Wi-Fi“ ryšio tinklo</string>

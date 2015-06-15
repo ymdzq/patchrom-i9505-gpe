@@ -972,8 +972,8 @@
     <string name="volume_icon_description_media">ລະດັບສຽງຂອງສື່</string>
     <string name="volume_icon_description_notification">ລະດັບສຽງການແຈ້ງເຕືອນ</string>
     <string name="ringtone_default">ຣິງໂທນເລີ່ມຕົ້ນ</string>
-    <string name="ringtone_default_with_actual">ບໍ່ມີ</string>
-    <string name="ringtone_silent">ຣິງໂທນ</string>
+    <string name="ringtone_default_with_actual">ຣິງໂທນເລີ່ມຕົ້ນ (%1$s)</string>
+    <string name="ringtone_silent">ບໍ່ມີ</string>
     <string name="ringtone_picker_title">ຣິງໂທນ</string>
     <string name="ringtone_unknown">ຣິງໂທນທີ່ບໍ່ຮູ້ຈັກ</string>
     <string name="wifi_available_sign_in">ເຂົ້າສູ່ລະບົບເຄືອຂ່າຍ Wi-Fi</string>

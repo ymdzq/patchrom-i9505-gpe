@@ -1003,8 +1003,8 @@ Szeretné bezárni?"</string>
     <string name="volume_icon_description_media">Média hangereje</string>
     <string name="volume_icon_description_notification">Értesítés hangereje</string>
     <string name="ringtone_default">Alapértelmezett csengőhang</string>
-    <string name="ringtone_default_with_actual">Egyik sem</string>
-    <string name="ringtone_silent">Csengőhangok</string>
+    <string name="ringtone_default_with_actual">Alapértelmezett csengőhang (%1$s)</string>
+    <string name="ringtone_silent">Egyik sem</string>
     <string name="ringtone_picker_title">Csengőhangok</string>
     <string name="ringtone_unknown">Ismeretlen csengőhang</string>
     <string name="wifi_available_sign_in">Bejelentkezés Wi-Fi hálózatba</string>

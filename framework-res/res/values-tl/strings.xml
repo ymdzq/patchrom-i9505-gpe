@@ -1003,8 +1003,8 @@ Nais mo ba itong isara?"</string>
     <string name="volume_icon_description_media">Volume ng media</string>
     <string name="volume_icon_description_notification">Volume ng notification</string>
     <string name="ringtone_default">Default na ringtone</string>
-    <string name="ringtone_default_with_actual">Wala</string>
-    <string name="ringtone_silent">Mga Ringtone</string>
+    <string name="ringtone_default_with_actual">Default na ringtone (%1$s)</string>
+    <string name="ringtone_silent">Wala</string>
     <string name="ringtone_picker_title">Mga Ringtone</string>
     <string name="ringtone_unknown">Hindi kilalang ringtone</string>
     <string name="wifi_available_sign_in">Mag-sign in sa network ng Wi-Fi</string>

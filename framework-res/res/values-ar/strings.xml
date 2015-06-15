@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">مستوى صوت الوسائط</string>
     <string name="volume_icon_description_notification">مستوى صوت الإشعار</string>
     <string name="ringtone_default">نغمة الرنين الافتراضية</string>
-    <string name="ringtone_default_with_actual">لا شيء</string>
-    <string name="ringtone_silent">نغمات الرنين</string>
+    <string name="ringtone_default_with_actual">نغمة الرنين الافتراضية (%1$s)</string>
+    <string name="ringtone_silent">لا شيء</string>
     <string name="ringtone_picker_title">نغمات الرنين</string>
     <string name="ringtone_unknown">نغمة رنين غير معروفة</string>
     <string name="wifi_available_sign_in">‏تسجيل الدخول إلى شبكة Wi-Fi</string>

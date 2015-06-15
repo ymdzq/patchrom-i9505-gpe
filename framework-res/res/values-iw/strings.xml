@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">עוצמת קול של מדיה</string>
     <string name="volume_icon_description_notification">עוצמת קול של התראות</string>
     <string name="ringtone_default">רינגטון ברירת מחדל</string>
-    <string name="ringtone_default_with_actual">ללא</string>
-    <string name="ringtone_silent">רינגטונים</string>
+    <string name="ringtone_default_with_actual">רינגטון ברירת מחדל (%1$s)</string>
+    <string name="ringtone_silent">ללא</string>
     <string name="ringtone_picker_title">רינגטונים</string>
     <string name="ringtone_unknown">רינגטון לא ידוע</string>
     <string name="wifi_available_sign_in">‏כניסה לרשת Wi-Fi</string>

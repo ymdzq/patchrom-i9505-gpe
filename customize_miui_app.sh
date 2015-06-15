@@ -48,10 +48,6 @@ if [ $1 = "MiuiFramework" ];then
 	applyPatch $1 $2
 fi
 
-if [ $1 = "MiuiHome" ];then
-    $XMLMERGYTOOL $1/res/values $2/res/values
-fi
-
 if [ $1 = "Music" ];then
 	applyPatch $1 $2
 fi

@@ -1003,8 +1003,8 @@ Vai vēlaties to aizvērt?"</string>
     <string name="volume_icon_description_media">Multivides skaļums</string>
     <string name="volume_icon_description_notification">Paziņojumu skaļums</string>
     <string name="ringtone_default">Noklusējuma zvana signāls</string>
-    <string name="ringtone_default_with_actual">Nav</string>
-    <string name="ringtone_silent">Zvana signāli</string>
+    <string name="ringtone_default_with_actual">Noklusējuma zvana signāls (%1$s)</string>
+    <string name="ringtone_silent">Nav</string>
     <string name="ringtone_picker_title">Zvana signāli</string>
     <string name="ringtone_unknown">Nezināms zvana signāls</string>
     <string name="wifi_available_sign_in">Pierakstieties Wi-Fi tīklā.</string>

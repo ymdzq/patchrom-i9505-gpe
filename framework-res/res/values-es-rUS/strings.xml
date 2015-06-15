@@ -1003,8 +1003,8 @@ Accede a "<b>google.com/accounts/recovery</b>.</string>
     <string name="volume_icon_description_media">Volumen de los medios</string>
     <string name="volume_icon_description_notification">Volumen de notificación</string>
     <string name="ringtone_default">Tono de llamada predeterminado</string>
-    <string name="ringtone_default_with_actual">Ninguno</string>
-    <string name="ringtone_silent">Tonos de llamada</string>
+    <string name="ringtone_default_with_actual">Tono de llamada predeterminado (%1$s)</string>
+    <string name="ringtone_silent">Ninguno</string>
     <string name="ringtone_picker_title">Tonos de llamada</string>
     <string name="ringtone_unknown">Tono de llamada desconocido</string>
     <string name="wifi_available_sign_in">Accede a una red Wi-Fi.</string>

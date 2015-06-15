@@ -1003,8 +1003,8 @@ Apakah Anda ingin menutupnya?"</string>
     <string name="volume_icon_description_media">Volume media</string>
     <string name="volume_icon_description_notification">Volume pemberitahuan</string>
     <string name="ringtone_default">Nada dering default</string>
-    <string name="ringtone_default_with_actual">Tidak Ada</string>
-    <string name="ringtone_silent">Nada dering</string>
+    <string name="ringtone_default_with_actual">Nada dering default (%1$s)</string>
+    <string name="ringtone_silent">Tidak Ada</string>
     <string name="ringtone_picker_title">Nada dering</string>
     <string name="ringtone_unknown">Nada dering tidak dikenal</string>
     <string name="wifi_available_sign_in">Masuk ke jaringan Wi-Fi</string>

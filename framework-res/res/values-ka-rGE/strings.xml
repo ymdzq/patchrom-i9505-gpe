@@ -998,8 +998,8 @@
     <string name="volume_icon_description_media">მედიის ხმა</string>
     <string name="volume_icon_description_notification">შეტყობინების ხმა</string>
     <string name="ringtone_default">ნაგულისხმევი ზარი</string>
-    <string name="ringtone_default_with_actual">არც ერთი</string>
-    <string name="ringtone_silent">ზარები</string>
+    <string name="ringtone_default_with_actual">ნაგულისხმევი ზარი (%1$s)</string>
+    <string name="ringtone_silent">არც ერთი</string>
     <string name="ringtone_picker_title">ზარები</string>
     <string name="ringtone_unknown">უცნობი ზარი</string>
     <string name="wifi_available_sign_in">Wi-Fi ქსელთან დაკავშირება</string>

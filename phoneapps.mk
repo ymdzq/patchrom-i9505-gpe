@@ -11,7 +11,7 @@ local-phone-apps = BCService \
                  HTMLViewer \
                  HwModuleTest \
                  KeyChain \
-                 LatinImeGoogle \
+		 Pinyin \
                  NfcNci \
                  PacProcessor \
                  Preconfig \

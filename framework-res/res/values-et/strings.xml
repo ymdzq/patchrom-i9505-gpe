@@ -977,8 +977,8 @@ Kas soovite selle sulgeda?"</string>
     <string name="volume_icon_description_media">Meediumi helitugevus</string>
     <string name="volume_icon_description_notification">Teatise helitugevus</string>
     <string name="ringtone_default">Vaikehelin</string>
-    <string name="ringtone_default_with_actual">Puudub</string>
-    <string name="ringtone_silent">Helinad</string>
+    <string name="ringtone_default_with_actual">Vaikehelin (%1$s)</string>
+    <string name="ringtone_silent">Puudub</string>
     <string name="ringtone_picker_title">Helinad</string>
     <string name="ringtone_unknown">Tundmatu helin</string>
     <string name="wifi_available_sign_in">Logige sisse WiFi-võrku</string>

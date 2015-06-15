@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">Гучність медіа</string>
     <string name="volume_icon_description_notification">Гучність сповіщення</string>
     <string name="ringtone_default">Мелодія за умовч.</string>
-    <string name="ringtone_default_with_actual">Немає</string>
-    <string name="ringtone_silent">Мелодії</string>
+    <string name="ringtone_default_with_actual">Мелодія за умовч. (%1$s)</string>
+    <string name="ringtone_silent">Немає</string>
     <string name="ringtone_picker_title">Мелодії</string>
     <string name="ringtone_unknown">Невідома мелодія</string>
     <string name="wifi_available_sign_in">Вхід у мережу Wi-Fi</string>

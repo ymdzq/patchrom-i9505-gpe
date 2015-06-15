@@ -1003,8 +1003,8 @@ Kapatmak ister misiniz?"</string>
     <string name="volume_icon_description_media">Medya ses düzeyi</string>
     <string name="volume_icon_description_notification">Bildirim ses düzeyi</string>
     <string name="ringtone_default">Varsayılan zil sesi</string>
-    <string name="ringtone_default_with_actual">Yok</string>
-    <string name="ringtone_silent">Zil sesleri</string>
+    <string name="ringtone_default_with_actual">Varsayılan zil sesi (%1$s)</string>
+    <string name="ringtone_silent">Yok</string>
     <string name="ringtone_picker_title">Zil sesleri</string>
     <string name="ringtone_unknown">Bilinmeyen zil sesi</string>
     <string name="wifi_available_sign_in">Kablosuz ağda oturum açın</string>

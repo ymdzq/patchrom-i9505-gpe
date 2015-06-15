@@ -1003,8 +1003,8 @@ Wilt u de pagina sluiten?"</string>
     <string name="volume_icon_description_media">Mediavolume</string>
     <string name="volume_icon_description_notification">Meldingsvolume</string>
     <string name="ringtone_default">Standaardbeltoon</string>
-    <string name="ringtone_default_with_actual">Geen</string>
-    <string name="ringtone_silent">Beltonen</string>
+    <string name="ringtone_default_with_actual">Standaardbeltoon (%1$s)</string>
+    <string name="ringtone_silent">Geen</string>
     <string name="ringtone_picker_title">Beltonen</string>
     <string name="ringtone_unknown">Onbekende beltoon</string>
     <string name="wifi_available_sign_in">Inloggen op wifi-netwerk</string>

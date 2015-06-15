@@ -998,8 +998,8 @@ Adakah anda mahu menutupnya?"</string>
     <string name="volume_icon_description_media">Kelantangan media</string>
     <string name="volume_icon_description_notification">Kelantangan pemberitahuan</string>
     <string name="ringtone_default">Nada dering lalai</string>
-    <string name="ringtone_default_with_actual">Tiada</string>
-    <string name="ringtone_silent">Nada dering</string>
+    <string name="ringtone_default_with_actual">Nada dering lalai (%1$s)</string>
+    <string name="ringtone_silent">Tiada</string>
     <string name="ringtone_picker_title">Nada dering</string>
     <string name="ringtone_unknown">Nada dering tidak diketahui</string>
     <string name="wifi_available_sign_in">Log masuk ke rangkaian Wi-Fi</string>

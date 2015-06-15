@@ -1003,8 +1003,8 @@ Ingabe ufuna ukulivala na?"</string>
     <string name="volume_icon_description_media">Ivolumu yemidiya</string>
     <string name="volume_icon_description_notification">Ivolumu yesaziso</string>
     <string name="ringtone_default">Iringithoni emisiwe</string>
-    <string name="ringtone_default_with_actual">Akunalutho</string>
-    <string name="ringtone_silent">Amaringithoni</string>
+    <string name="ringtone_default_with_actual">Iringithoni ezenzakalelayo %1$s</string>
+    <string name="ringtone_silent">Akunalutho</string>
     <string name="ringtone_picker_title">Amaringithoni</string>
     <string name="ringtone_unknown">Iringithoni engaziwa</string>
     <string name="wifi_available_sign_in">Ngena enethiwekhini ye-Wi-Fi network</string>

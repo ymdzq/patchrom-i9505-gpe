@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">የማህደረ መረጃ ክፍልፍል</string>
     <string name="volume_icon_description_notification">የማሳወቂያ ክፍልፍል</string>
     <string name="ringtone_default">ነባሪ የስልክ ላይ ጥሪ</string>
-    <string name="ringtone_default_with_actual">ምንም</string>
-    <string name="ringtone_silent">ጥሪ ድምፆች</string>
+    <string name="ringtone_default_with_actual">(%1$s) ነባሪ የስልክ ላይ ጥሪ</string>
+    <string name="ringtone_silent">ምንም</string>
     <string name="ringtone_picker_title">ጥሪ ድምፆች</string>
     <string name="ringtone_unknown">ያልታወቀ የስልክ ጥሪ ድምፅ</string>
     <string name="wifi_available_sign_in">ወደ Wi-Fi አውታረ መረብ በመለያ ግባ</string>

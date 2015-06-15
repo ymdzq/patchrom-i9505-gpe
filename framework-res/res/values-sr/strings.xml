@@ -1003,8 +1003,8 @@
     <string name="volume_icon_description_media">Јачина звука медија</string>
     <string name="volume_icon_description_notification">Јачина звука обавештења</string>
     <string name="ringtone_default">Подразумевани звук звона</string>
-    <string name="ringtone_default_with_actual">Без</string>
-    <string name="ringtone_silent">Звукови звона</string>
+    <string name="ringtone_default_with_actual">Подразумевани звук звона (%1$s)</string>
+    <string name="ringtone_silent">Без</string>
     <string name="ringtone_picker_title">Звукови звона</string>
     <string name="ringtone_unknown">Непознати звук звона</string>
     <string name="wifi_available_sign_in">Пријавите се на Wi-Fi мрежу</string>
