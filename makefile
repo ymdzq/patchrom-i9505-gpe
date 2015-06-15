@@ -39,17 +39,21 @@ include $(PORT_BUILD)/porting.mk
 # To define any local-target
 updater := $(ZIP_DIR)/META-INF/com/google/android/updater-script
 local-pre-zip-misc:
-	@echo Update boot image
-	#cp other/boot.img $(ZIP_DIR)/boot.img
+	@echo Update GoogyMax3 kernel
+	cp other/gm-kernel/boot.img $(ZIP_DIR)/boot.img
+	cp -rf other/gm-kernel/system $(ZIP_DIR)/
 
 	@echo Replace system files
 	cp -rf other/system $(ZIP_DIR)/
 	cp $(SYSOUT_DIR)/app/QuickSearchBox.apk $(ZIP_DIR)/system/priv-app/QuickSearchBox.apk
 	rm -rf $(ZIP_DIR)/system/app/QuickSearchBox.apk
 
-	@echo Update Ktoonsez kernel
-	cp other/kt-kernel/boot.img $(ZIP_DIR)/boot.img
-	cp -rf other/kt-kernel/system $(ZIP_DIR)/
+	@echo Use stock bin files to avoid xposed bootloops
+	cp -rf stockrom/system/bin/app_process $(ZIP_DIR)/system/bin/app_process
+	rm -rf $(ZIP_DIR)/system/bin/debuggerd_vendor
+	cp -rf stockrom/system/bin/debuggerd $(ZIP_DIR)/system/bin/debuggerd
+	rm -rf $(ZIP_DIR)/system/bin/dexopt_vendor
+	cp -rf stockrom/system/bin/dexopt $(ZIP_DIR)/system/bin/dexopt
 
 	@echo Delete some unneeded files
 	#rm -rf $(ZIP_DIR)/system/csc/common
