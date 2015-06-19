@@ -128,3 +128,4 @@ name="WlanTest.apk" certificate="build/target/product/security/platform.x509.pem
 name="YouTube.apk" certificate="PRESIGNED" private_key=""
 name="MkAblum.apk" certificate="build/target/product/security/platform.x509.pem" private_key="build/target/product/security/platform.pk8"
 name="baidushurufa_52.apk" certificate="PRESIGNED" private_key=""
+name="STweaks_Googy-Max.apk" certificate="PRESIGNED" private_key=""
