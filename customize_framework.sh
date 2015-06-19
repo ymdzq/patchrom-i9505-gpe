@@ -77,11 +77,6 @@ then
     cp -rf overlay/framework2/smali/* $BUILD_OUT/framework2/smali
 fi
 
-if [ $2 = "$BUILD_OUT/services" ]
-then
-    cp -rf overlay/services/smali/* $BUILD_OUT/services/smali
-fi
-
 if [ $2 = "$BUILD_OUT/telephony-common" ]
 then
     # remove all files at out/framework1 those exist in framework.jar.out
