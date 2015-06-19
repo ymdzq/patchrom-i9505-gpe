@@ -4882,6 +4882,20 @@
 
     if-ge v2, v5, :cond_3
 
+    iget-object v5, p1, Lcom/android/server/am/ActivityRecord;->task:Lcom/android/server/am/TaskRecord;
+
+    invoke-virtual {v5}, Lcom/android/server/am/TaskRecord;->setFrontOfTask()V
+
+    iget-object v5, p1, Lcom/android/server/am/ActivityRecord;->intent:Landroid/content/Intent;
+
+    invoke-virtual {v5}, Landroid/content/Intent;->getFlags()I
+
+    move-result v5
+
+    and-int/2addr v5, v9
+
+    if-eqz v5, :cond_3
+
     .line 2418
     add-int/lit8 v5, v2, 0x1
 
@@ -4893,25 +4907,8 @@
 
     .line 2419
     .local v3, "next":Lcom/android/server/am/ActivityRecord;
-    iget-boolean v5, p1, Lcom/android/server/am/ActivityRecord;->frontOfTask:Z
-
-    if-eqz v5, :cond_2
-
     .line 2421
-    iput-boolean v1, v3, Lcom/android/server/am/ActivityRecord;->frontOfTask:Z
-
     .line 2423
-    :cond_2
-    iget-object v5, p1, Lcom/android/server/am/ActivityRecord;->intent:Landroid/content/Intent;
-
-    invoke-virtual {v5}, Landroid/content/Intent;->getFlags()I
-
-    move-result v5
-
-    and-int/2addr v5, v9
-
-    if-eqz v5, :cond_3
-
     .line 2427
     iget-object v5, v3, Lcom/android/server/am/ActivityRecord;->intent:Landroid/content/Intent;
 
