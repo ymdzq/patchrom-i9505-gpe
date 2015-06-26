@@ -31,7 +31,7 @@
     <!--whether the device supports agps-->
     <bool name="support_agps">true</bool>
     <!--whether the device support hall sensor-->
-    <bool name="support_hall_sensor">true</bool>
+    <bool name="support_hall_sensor">false</bool>
     <!--whether the device supports agps parameters-->
     <bool name="support_agps_paras">true</bool>
     <!--whether the device supports agps roaming-->
