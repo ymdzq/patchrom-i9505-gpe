@@ -39,9 +39,10 @@ include $(PORT_BUILD)/porting.mk
 # To define any local-target
 updater := $(ZIP_DIR)/META-INF/com/google/android/updater-script
 local-pre-zip-misc:
-	@echo Update GoogyMax3 kernel
-	cp other/gm-kernel/boot.img $(ZIP_DIR)/boot.img
-	cp -rf other/gm-kernel/system $(ZIP_DIR)/
+	@echo Update faux123 kernel
+	cp other/fa-kernel/boot.img $(ZIP_DIR)/boot.img
+	rm -rf $(ZIP_DIR)/system/lib/modules
+	cp -rf other/fa-kernel/system $(ZIP_DIR)/
 
 	@echo Replace system files
 	cp -rf other/system $(ZIP_DIR)/
@@ -63,3 +64,7 @@ local-pre-zip-misc:
 	rm -rf $(ZIP_DIR)/system/lib/libvideochat_jni.so
 	rm -rf $(ZIP_DIR)/system/preloaddata
 	rm -rf $(ZIP_DIR)/system/wallpaper
+	rm -rf $(ZIP_DIR)/system/lib/libgnustl_shared.so
+	rm -rf $(ZIP_DIR)/system/lib/libhwr.so
+	rm -rf $(ZIP_DIR)/system/lib/libjni_hmm_shared_engine.so
+	rm -rf $(ZIP_DIR)/system/lib/libpinyin_data_bundle.so
