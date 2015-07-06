@@ -39,10 +39,19 @@ include $(PORT_BUILD)/porting.mk
 # To define any local-target
 updater := $(ZIP_DIR)/META-INF/com/google/android/updater-script
 local-pre-zip-misc:
-	@echo Update faux123 kernel
-	cp other/fa-kernel/boot.img $(ZIP_DIR)/boot.img
-	rm -rf $(ZIP_DIR)/system/lib/modules
-	cp -rf other/fa-kernel/system $(ZIP_DIR)/
+	#@echo Use faux123 kernel
+	#cp other/fa-kernel/boot.img $(ZIP_DIR)/boot.img
+	#rm -rf $(ZIP_DIR)/system/lib/modules
+	#cp -rf other/fa-kernel/system $(ZIP_DIR)/
+
+	#@echo Use GoogyMax3 kernel
+	#cp other/gm-kernel/boot.img $(ZIP_DIR)/boot.img
+	#rm -rf $(ZIP_DIR)/system/lib/modules
+	#cp -rf other/gm-kernel/system $(ZIP_DIR)/
+
+	@echo Use Ktoonsez kernel
+	cp other/kt-kernel/boot.img $(ZIP_DIR)/boot.img
+	cp -rf other/kt-kernel/system $(ZIP_DIR)/
 
 	@echo Replace system files
 	cp -rf other/system $(ZIP_DIR)/
