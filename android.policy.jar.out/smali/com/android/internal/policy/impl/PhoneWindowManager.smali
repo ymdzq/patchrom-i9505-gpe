@@ -13697,7 +13697,7 @@
 
     if-eqz v12, :cond_1b
 
-    if-eqz p3, :cond_19
+    if-eqz p3, :cond_1b
 
     .line 4123
     invoke-interface {v11}, Lcom/android/internal/telephony/ITelephony;->endCall()Z
