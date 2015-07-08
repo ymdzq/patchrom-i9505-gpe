@@ -73,7 +73,7 @@ local-pre-zip-misc:
 	rm -rf $(ZIP_DIR)/system/lib/libvideochat_jni.so
 	rm -rf $(ZIP_DIR)/system/preloaddata
 	rm -rf $(ZIP_DIR)/system/wallpaper
-	rm -rf $(ZIP_DIR)/system/lib/libgnustl_shared.so
-	rm -rf $(ZIP_DIR)/system/lib/libhwr.so
-	rm -rf $(ZIP_DIR)/system/lib/libjni_hmm_shared_engine.so
-	rm -rf $(ZIP_DIR)/system/lib/libpinyin_data_bundle.so
+	#rm -rf $(ZIP_DIR)/system/lib/libgnustl_shared.so
+	#rm -rf $(ZIP_DIR)/system/lib/libhwr.so
+	#rm -rf $(ZIP_DIR)/system/lib/libjni_hmm_shared_engine.so
+	#rm -rf $(ZIP_DIR)/system/lib/libpinyin_data_bundle.so

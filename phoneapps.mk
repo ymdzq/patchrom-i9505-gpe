@@ -13,6 +13,7 @@ local-phone-apps = BCService \
                  KeyChain \
                  NfcNci \
                  PacProcessor \
+		 Pinyin \
                  Preconfig \
                  qcrilmsgtunnel \
                  SCParser \
