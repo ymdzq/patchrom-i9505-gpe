@@ -4,12 +4,9 @@ local-phone-apps = BCService \
                  CABLService \
                  CellBroadcastReceiver \
                  DigitalPenWorkService \
-                 FactoryKeystring_FB \
-                 FactoryTest_FB \
                  FMRecord \
                  GoogleCamera \
                  HTMLViewer \
-                 HwModuleTest \
                  KeyChain \
                  NfcNci \
                  PacProcessor \
@@ -17,9 +14,6 @@ local-phone-apps = BCService \
                  Preconfig \
                  qcrilmsgtunnel \
                  SCParser \
-                 SecFactoryPhoneTest \
-                 serviceModeApp_FB \
-                 ServiceModeApp_RIL \
                  shutdownlistener \
                  SilentLog \
                  Stk \

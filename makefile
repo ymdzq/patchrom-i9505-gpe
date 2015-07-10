@@ -66,14 +66,23 @@ local-pre-zip-misc:
 	cp -rf stockrom/system/bin/dexopt $(ZIP_DIR)/system/bin/dexopt
 
 	@echo Delete some unneeded files
-	#rm -rf $(ZIP_DIR)/system/csc
+	rm -rf $(ZIP_DIR)/system/csc
 	rm -rf $(ZIP_DIR)/system/lib/libchrome.1916.141.so
 	rm -rf $(ZIP_DIR)/system/lib/libearthandroid.so
 	rm -rf $(ZIP_DIR)/system/lib/libearthmobile.so
 	rm -rf $(ZIP_DIR)/system/lib/libvideochat_jni.so
 	rm -rf $(ZIP_DIR)/system/preloaddata
 	rm -rf $(ZIP_DIR)/system/wallpaper
+	#@echo Delete google pinyin ime files
 	#rm -rf $(ZIP_DIR)/system/lib/libgnustl_shared.so
 	#rm -rf $(ZIP_DIR)/system/lib/libhwr.so
 	#rm -rf $(ZIP_DIR)/system/lib/libjni_hmm_shared_engine.so
 	#rm -rf $(ZIP_DIR)/system/lib/libpinyin_data_bundle.so
+	@echo Delete su files
+	#rm -rf $(ZIP_DIR)/system/bin/.ext
+	#rm -rf $(ZIP_DIR)/system/etc/init.d/99SuperSUDaemon
+	#rm -rf $(ZIP_DIR)/system/etc/.installed_su_daemon
+	rm -rf $(ZIP_DIR)/system/etc/install-recovery.sh
+	#rm -rf $(ZIP_DIR)/system/xbin/daemonsu
+	#rm -rf $(ZIP_DIR)/system/xbin/sugote
+	#rm -rf $(ZIP_DIR)/system/xbin/sugote-mksh

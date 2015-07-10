@@ -70,3 +70,6 @@ system/bin/vmstat|system/bin/toolbox
 system/bin/watchprops|system/bin/toolbox
 system/bin/wiperiface|system/bin/wiperiface_v02
 system/bin/wipe|system/bin/toolbox
+system/fonts/DroidSans-Bold.ttf|system/fonts/Roboto-Bold.ttf
+system/fonts/DroidSans.ttf|system/fonts/Roboto-Regular.ttf
+system/lib/libGLESv3.so|system/lib/libGLESv2.so

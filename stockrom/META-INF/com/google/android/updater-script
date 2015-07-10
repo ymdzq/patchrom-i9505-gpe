@@ -37,6 +37,9 @@ symlink("/system/bin/toolbox", "/system/bin/cat", "/system/bin/chcon",
         "/system/bin/watchprops",
         "/system/bin/wipe");
 symlink("/system/bin/wiperiface_v02", "/system/bin/wiperiface");
+symlink("/system/fonts/Roboto-Bold.ttf", "/system/fonts/DroidSans-Bold.ttf");
+symlink("/system/fonts/Roboto-Regular.ttf", "/system/fonts/DroidSans.ttf");
+symlink("/system/lib/libGLESv2.so", "/system/lib/libGLESv3.so");
 ui_print("Set permission...");
 set_perm_recursive(0, 0, 0755, 0644, "/system");
 set_perm_recursive(0, 2000, 0755, 0755, "/system/bin");
@@ -48,7 +51,6 @@ set_perm_recursive(1002, 1002, 0755, 0440, "/system/etc/bluetooth");
 set_perm(0, 0, 0755, "/system/etc/bluetooth");
 set_perm(1000, 1000, 0640, "/system/etc/bluetooth/auto_pair_devlist.conf");
 set_perm(1014, 2000, 0550, "/system/etc/dhcpcd/dhcpcd-run-hooks");
-set_perm(0, 0, 0544, "/system/etc/install-recovery.sh");
 set_perm_recursive(0, 0, 0755, 0555, "/system/etc/ppp");
 set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor");
 set_perm_recursive(0, 0, 0755, 0644, "/system/vendor/firmware");
