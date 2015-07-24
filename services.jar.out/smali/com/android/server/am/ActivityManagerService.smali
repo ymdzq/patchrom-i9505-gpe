@@ -45459,6 +45459,8 @@
     .end local v24    # "uss":Lcom/android/server/am/UserStartedState;
     :cond_2
     monitor-exit p0
+
+    invoke-static/range {p0 .. p0}, Lcom/android/server/am/ExtraActivityManagerService;->finishBooting(Lcom/android/server/am/ActivityManagerService;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -45467,8 +45469,6 @@
     const-string v3, "!@Boot: bootcomplete"
 
     invoke-static {v2, v3}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    invoke-static/range {p0 .. p0}, Lcom/android/server/am/ExtraActivityManagerService;->finishBooting(Lcom/android/server/am/ActivityManagerService;)V
     return-void
 
     .end local v18    # "NP":I
