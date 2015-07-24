@@ -1400,22 +1400,21 @@
 
     if-ne v8, v9, :cond_2
 
+    .line 342
     iget-object v8, p0, Lcom/android/server/LockSettingsService;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
     invoke-virtual {v8, p1}, Lcom/android/internal/widget/LockPatternUtils;->passwordToHashOriginal(Ljava/lang/String;)[B
 
     move-result-object v2
 
+    .line 346
     .local v2, "hash":[B
     :goto_1
-    invoke-static {v6, v2}, Lcom/android/server/LockSettingsService$Injector;->passwordToHash([B[B)[B
-
-    move-result-object v8
-
-    invoke-static {v6, v8}, Ljava/util/Arrays;->equals([B[B)Z
+    invoke-static {v6, v2}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result v4
 
+    .line 347
     .local v4, "matched":Z
     if-eqz v4, :cond_0
 
