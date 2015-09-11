@@ -17731,7 +17731,7 @@
         type="dun"
     />
 
-    <apn carrier="csl."
+    <apn carrier="csl"
         mcc="454"
         mnc="00"
         apn="mobile"
@@ -17989,7 +17989,7 @@
         type="default,supl,mms,dun"
     />
 
-    <apn carrier="csl."
+    <apn carrier="csl"
         mcc="454"
         mnc="19"
         apn="pccw"
@@ -18413,6 +18413,13 @@
         type="mms"
     />
 
+    <apn carrier="GT Internet"
+        mcc="466"
+        mnc="05"
+        apn="gtnet"
+        type="default,supl"
+    />
+
     <apn carrier="和信電訊(KGT-Online) (Internet)"
         mcc="466"
         mnc="88"
@@ -18498,8 +18505,8 @@
     <apn carrier="台灣大哥大(TW Mobile) (Internet)"
         mcc="466"
         mnc="97"
-        apn="Internet"
-        type="internet"
+        apn="internet"
+        type="default"
     />
 
     <apn carrier="台灣大哥大(TW Mobile) (MMS)"
