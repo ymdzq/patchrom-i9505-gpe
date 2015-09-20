@@ -2446,7 +2446,7 @@
     :cond_6
     iget v3, p0, Landroid/telephony/SignalStrength;->mLteRsrp:I
 
-    const/16 v4, -0x7d
+    const/16 v4, -0x78
 
     if-lt v3, v4, :cond_7
 
