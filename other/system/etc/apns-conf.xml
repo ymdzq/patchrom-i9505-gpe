@@ -4600,7 +4600,7 @@
         user="mmsgprs"
     />
 
-    <apn carrier="movistar Internet"
+    <apn carrier="movistar INTERNET"
         mcc="334"
         mnc="03"
         apn="internet.movistar.mx"
@@ -4659,6 +4659,75 @@
     <apn carrier="Iusacell MMS"
         mcc="334"
         mnc="050"
+        apn="mms.iusacellgsm.mx"
+        authtype="0"
+        mmsc="http://mms.iusacell3g.com/"
+        mmsport="80"
+        mmsproxy="192.200.1.40"
+        password="mmsiusacellgsm"
+        type="mms"
+        user="mmsiusacellgsm"
+    />
+
+    <apn carrier="Unefon Internet"
+        mcc="334"
+        mnc="050"
+        apn="web.iusacellgsm.mx"
+        authtype="0"
+        password="Iusacellgsm"
+        type="default,supl,dun"
+        user="Iusacellgsm"
+    />
+
+    <apn carrier="Unefon MMS"
+        mcc="334"
+        mnc="050"
+        apn="mms.iusacellgsm.mx"
+        authtype="0"
+        mmsc="http://mms.iusacell3g.com/"
+        mmsport="80"
+        mmsproxy="192.200.1.40"
+        password="mmsiusacellgsm"
+        type="mms"
+        user="mmsiusacellgsm"
+    />
+
+    <apn carrier="Iusacell Internet"
+        mcc="334"
+        mnc="090"
+        apn="web.iusacellgsm.mx"
+        authtype="0"
+        password="Iusacellgsm"
+        type="default,supl,dun"
+        user="Iusacellgsm"
+    />
+
+    <apn carrier="Iusacell MMS"
+        mcc="334"
+        mnc="090"
+        apn="mms.iusacellgsm.mx"
+        authtype="0"
+        mmsc="http://mms.iusacell3g.com/"
+        mmsport="80"
+        mmsproxy="192.200.1.40"
+        password="mmsiusacellgsm"
+        type="mms"
+        user="mmsiusacellgsm"
+    />
+
+    <apn carrier="Unefon Internet"
+        mcc="334"
+        mnc="090"
+        apn="web.iusacellgsm.mx"
+        authtype="0"
+        password="Iusacellgsm"
+        type="default,supl,dun"
+        user="Iusacellgsm"
+    />
+
+    <apn carrier="Unefon MMS"
+        mcc="334"
+        mnc="090"
         apn="mms.iusacellgsm.mx"
         authtype="0"
         mmsc="http://mms.iusacell3g.com/"
@@ -19644,18 +19713,6 @@
         type="default,supl"
     />
 
-    <apn carrier="M1 WAP"
-        mcc="525"
-        mnc="03"
-        apn="miworld"
-        authtype="1"
-        password="user123"
-        port="8081"
-        proxy="172.16.1.23"
-        type="default,supl"
-        user="65"
-    />
-
     <apn carrier="M1 MMS(3G)"
         mcc="525"
         mnc="03"
@@ -19674,18 +19731,6 @@
         mnc="04"
         apn="sunsurf"
         type="default,supl"
-    />
-
-    <apn carrier="M1 WAP"
-        mcc="525"
-        mnc="04"
-        apn="miworld"
-        authtype="1"
-        password="user123"
-        port="8081"
-        proxy="172.16.1.23"
-        type="default,supl"
-        user="65"
     />
 
     <apn carrier="M1 MMS(3G)"
@@ -19737,6 +19782,13 @@
         port="80"
         proxy="10.12.1.2"
         type="mms"
+    />
+
+    <apn carrier="MyRepublic"
+        mcc="525"
+        mnc="17"
+        apn="MyRepublic"
+        type="default"
     />
 
     <apn carrier="VFNZ Gateway"
@@ -20903,13 +20955,13 @@
         authtype="1"
         mmsc="http://mms.ideasclaro.com:8002"
         mmsport="8080"
-        mmsproxy="216.230.133.66"
+        mmsproxy="216.230.133.066"
         password=""
         type="mms"
         user=""
     />
 
-    <apn carrier="BROADBAND TIGO"
+    <apn carrier="BROADBAND TIGO GT"
         mcc="704"
         mnc="02"
         apn="broadband.tigo.gt"
@@ -20930,6 +20982,29 @@
         password=""
         type="mms"
         user=""
+    />
+
+    <apn carrier="movistar INTERNET"
+        mcc="704"
+        mnc="03"
+        apn="internet.movistar.gt"
+        authtype="1"
+        password="movistargt"
+        type="default,supl,dun"
+        user="movistargt"
+    />
+
+    <apn carrier="movistar MMS"
+        mcc="704"
+        mnc="03"
+        apn="mms.movistar.gt"
+        authtype="1"
+        mmsc="http://mms.movistar.gt"
+        mmsport="80"
+        mmsproxy="10.12.22.1"
+        password="movistargt"
+        type="mms"
+        user="movistargt"
     />
 
     <apn carrier="Internet GT"
@@ -20995,7 +21070,7 @@
         authtype="1"
         mmsc="http://mms.ideasclaro.com:8002"
         mmsport="8080"
-        mmsproxy="216.230.133.66"
+        mmsproxy="216.230.133.066"
         password=""
         type="mms"
         user=""
@@ -21019,6 +21094,29 @@
         mmsc="http://172.26.5.132/servlets/mms"
         mmsport="8080"
         mmsproxy="172.26.5.12"
+        password=""
+        type="mms"
+        user=""
+    />
+
+    <apn carrier="INTERNET TIGO SV"
+        mcc="706"
+        mnc="03"
+        apn="internet.tigo.sv"
+        authtype="1"
+        password=""
+        type="default,supl,dun"
+        user=""
+    />
+
+    <apn carrier="MMS TIGO SV"
+        mcc="706"
+        mnc="03"
+        apn="mms.tigo.sv"
+        authtype="1"
+        mmsc="http://mms"
+        mmsport="8888"
+        mmsproxy="10.16.17.12"
         password=""
         type="mms"
         user=""
@@ -21058,6 +21156,29 @@
     />
 
     <apn carrier="MMS2 GPRS"
+        mcc="706"
+        mnc="04"
+        apn="mms.movistar.sv"
+        authtype="1"
+        mmsc="http://mms.movistar.sv"
+        mmsport="80"
+        mmsproxy="10.12.20.1"
+        password="movistarsv"
+        type="mms"
+        user="movistarsv"
+    />
+
+    <apn carrier="movistar INTERNET"
+        mcc="706"
+        mnc="04"
+        apn="internet.movistar.sv"
+        authtype="1"
+        password="movistarsv"
+        type="default,supl,dun"
+        user="movistarsv"
+    />
+
+    <apn carrier="movistar MMS"
         mcc="706"
         mnc="04"
         apn="mms.movistar.sv"
@@ -21116,7 +21237,26 @@
         user="mmsmegatel"
     />
 
-    <apn carrier="INTERNET TIGO"
+    <apn carrier="Claro WEB"
+        mcc="708"
+        mnc="001"
+        apn="internet.ideasclaro"
+        authtype="1"
+        type="default,supl,dun"
+    />
+
+    <apn carrier="CLARO MMS"
+        mcc="708"
+        mnc="001"
+        apn="mms.ideasclaro"
+        authtype="1"
+        mmsc="http://10.6.32.27/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.6.32.2"
+        type="mms"
+    />
+
+    <apn carrier="INTERNET TIGO HN"
         mcc="708"
         mnc="02"
         apn="internet.tigo.hn"
@@ -21126,7 +21266,7 @@
         user=""
     />
 
-    <apn carrier="MMS TIGO"
+    <apn carrier="MMS TIGO HN"
         mcc="708"
         mnc="02"
         apn="mms.tigo.hn"
@@ -21185,7 +21325,45 @@
         user="mmsemovil"
     />
 
-    <apn carrier="Internet GPRS"
+    <apn carrier="Claro WEB"
+        mcc="710"
+        mnc="21"
+        apn="internet.ideasclaro"
+        authtype="1"
+        type="default,supl,dun"
+    />
+
+    <apn carrier="Claro MMS"
+        mcc="710"
+        mnc="21"
+        apn="mms.ideasclaro"
+        authtype="1"
+        mmsc="http://10.6.32.27/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.6.32.2"
+        type="mms"
+    />
+
+    <apn carrier="Claro WEB"
+        mcc="710"
+        mnc="73"
+        apn="internet.ideasclaro"
+        authtype="1"
+        type="default,supl,dun"
+    />
+
+    <apn carrier="Claro MMS"
+        mcc="710"
+        mnc="73"
+        apn="mms.ideasclaro"
+        authtype="1"
+        mmsc="http://10.6.32.27/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.6.32.2"
+        type="mms"
+    />
+
+    <apn carrier="movistar INTERNET"
         mcc="710"
         mnc="300"
         apn="internet.movistar.ni"
@@ -21231,7 +21409,7 @@
         user="mmsemovil"
     />
 
-    <apn carrier="Kolbi"
+    <apn carrier="Kolbi Internet"
         mcc="712"
         mnc="01"
         apn="kolbi3g"
@@ -21241,10 +21419,10 @@
         user=""
     />
 
-    <apn carrier="Multimedia"
+    <apn carrier="Kolbi MMS"
         mcc="712"
         mnc="01"
-        apn="kolbi3g"
+        apn="kolbimundo"
         authtype="1"
         mmsc="http://mmsice"
         mmsport="8080"
@@ -21254,7 +21432,7 @@
         user=""
     />
 
-    <apn carrier="Kolbi"
+    <apn carrier="Kolbi Internet"
         mcc="712"
         mnc="02"
         apn="kolbi3g"
@@ -21264,10 +21442,10 @@
         user=""
     />
 
-    <apn carrier="Multimedia"
+    <apn carrier="Kolbi MMS"
         mcc="712"
         mnc="02"
-        apn="kolbi3g"
+        apn="kolbimundo"
         authtype="1"
         mmsc="http://mmsice"
         mmsport="8080"
@@ -21277,7 +21455,7 @@
         user=""
     />
 
-    <apn carrier="INTERNET CLARO"
+    <apn carrier="Internet CLARO CR"
         mcc="712"
         mnc="03"
         apn="internet.ideasclaro"
@@ -21287,7 +21465,7 @@
         user=""
     />
 
-    <apn carrier="MMS CLARO"
+    <apn carrier="MMS CLARO CR"
         mcc="712"
         mnc="03"
         apn="mms.ideasclaro"
@@ -21868,7 +22046,17 @@
         user="entelpcs"
     />
 
-    <apn carrier="MMS"
+    <apn carrier="movistar INTERNET"
+        mcc="730"
+        mnc="02"
+        apn="web.tmovil.cl"
+        authtype="1"
+        password="web"
+        type="default,supl,dun"
+        user="web"
+    />
+
+    <apn carrier="movistar MMS"
         mcc="730"
         mnc="02"
         apn="mms.tmovil.cl"
@@ -21914,6 +22102,25 @@
         password="clarochile"
         type="mms"
         user="clarochile"
+    />
+
+    <apn carrier="Virgin Internet movil"
+        mcc="730"
+        mnc="07"
+        apn="imovil.virginmobile.cl"
+        authtype="1"
+        type="default,supl,dun"
+    />
+
+    <apn carrier="Virgin MMS"
+        mcc="730"
+        mnc="07"
+        apn="mmsc.virginmobile.cl"
+        authtype="1"
+        mmsc="http://mms.virginmobil.cl:1981/mms"
+        mmsport="9081"
+        mmsproxy="10.207.80.16"
+        type="mms"
     />
 
     <apn carrier="web"
@@ -22007,7 +22214,7 @@
         user="entelpcs"
     />
 
-    <apn carrier="MMS Comcel 3GSM"
+    <apn carrier="MMS COMCEL 3GSM"
         mcc="732"
         mnc="101"
         apn="mms.comcel.com.co"
@@ -22020,7 +22227,7 @@
         user="COMCELMMS"
     />
 
-    <apn carrier="WEB Comcel 3GSM"
+    <apn carrier="INTERNET COMCEL 3GSM"
         mcc="732"
         mnc="101"
         apn="internet.comcel.com.co"
@@ -22030,6 +22237,29 @@
         user="COMCELWEB"
     />
 
+    <apn carrier="movistar INTERNET"
+        mcc="732"
+        mnc="101"
+        apn="internet.movistar.com.co"
+        authtype="1"
+        password="movistar"
+        type="default,supl,dun"
+        user="movistar"
+    />
+
+    <apn carrier="movistar MMS"
+        mcc="732"
+        mnc="101"
+        apn="mms.movistar.com.co"
+        authtype="1"
+        mmsc="http://mms.movistar.com.co"
+        mmsport="9001"
+        mmsproxy="192.168.222.7"
+        password="movistar"
+        type="mms"
+        user="movistar"
+    />
+
     <apn carrier="TIGO Multimedia"
         mcc="732"
         mnc="103"
@@ -22053,6 +22283,36 @@
         user=""
     />
 
+    <apn carrier="movistar INTERNET"
+        mcc="732"
+        mnc="103"
+        apn="internet.movistar.com.co"
+        authtype="1"
+        password="movistar"
+        type="default,supl,dun"
+        user="movistar"
+    />
+
+    <apn carrier="movistar MMS"
+        mcc="732"
+        mnc="103"
+        apn="mms.movistar.com.co"
+        authtype="1"
+        mmsc="http://mms.movistar.com.co"
+        mmsport="9001"
+        mmsproxy="192.168.222.7"
+        password="movistar"
+        type="mms"
+        user="movistar"
+    />
+
+    <apn carrier="APN Privado "
+        mcc="732"
+        mnc="103"
+        apn="Avantel.co"
+        type="default,supl"
+    />
+
     <apn carrier="TIGO Multimedia"
         mcc="732"
         mnc="111"
@@ -22074,6 +22334,29 @@
         password=""
         type="default,supl,dun"
         user=""
+    />
+
+    <apn carrier="movistar INTERNET"
+        mcc="732"
+        mnc="111"
+        apn="internet.movistar.com.co"
+        authtype="1"
+        password="movistar"
+        type="default,supl,dun"
+        user="movistar"
+    />
+
+    <apn carrier="movistar MMS"
+        mcc="732"
+        mnc="111"
+        apn="mms.movistar.com.co"
+        authtype="1"
+        mmsc="http://mms.movistar.com.co"
+        mmsport="9001"
+        mmsproxy="192.168.222.7"
+        password="movistar"
+        type="mms"
+        user="movistar"
     />
 
     <apn carrier="movistar INTERNET"
@@ -22302,7 +22585,53 @@
         user="movistar"
     />
 
-    <apn carrier="Claro Internet"
+    <apn carrier="movistar INTERNET"
+        mcc="740"
+        mnc="01"
+        apn="internet.movistar.com.ec"
+        authtype="1"
+        password="movistar"
+        type="default,supl,dun"
+        user="movistar"
+    />
+
+    <apn carrier="movistar MMS"
+        mcc="740"
+        mnc="01"
+        apn="mms.movistar.com.ec"
+        authtype="1"
+        mmsc="http://mms.movistar.com.ec:8088/mms/"
+        mmsport="9001"
+        mmsproxy="10.3.5.50"
+        password="movistar"
+        type="mms"
+        user="movistar"
+    />
+
+    <apn carrier="movistar INTERNET"
+        mcc="740"
+        mnc="02"
+        apn="internet.movistar.com.ec"
+        authtype="1"
+        password="movistar"
+        type="default,supl,dun"
+        user="movistar"
+    />
+
+    <apn carrier="movistar MMS"
+        mcc="740"
+        mnc="02"
+        apn="mms.movistar.com.ec"
+        authtype="1"
+        mmsc="http://mms.movistar.com.ec:8088/mms/"
+        mmsport="9001"
+        mmsproxy="10.3.5.50"
+        password="movistar"
+        type="mms"
+        user="movistar"
+    />
+
+    <apn carrier="Internet Claro"
         mcc="740"
         mnc="01"
         apn="internet.porta.com.ec"
@@ -22358,7 +22687,7 @@
         user=""
     />
 
-    <apn carrier="MMS Alegro"
+    <apn carrier="ALEGRO MMS"
         mcc="740"
         mnc="02"
         apn="mms.alegro.net.ec"
