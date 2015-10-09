@@ -11,11 +11,11 @@ Subject: [PATCH] Open LTE Mi5
 --- a/TeleService/smali/com/android/phone/PhoneGlobals.smali
 +++ b/TeleService/smali/com/android/phone/PhoneGlobals.smali
 @@ -2771,7 +2771,7 @@
-     :cond_a
+     :cond_9
      sget-boolean v3, Lmiui/os/Build;->IS_MIFIVE:Z
  
--    if-eqz v3, :cond_d
-+    #if-eqz v3, :cond_d
+-    if-eqz v3, :cond_c
++    #if-eqz v3, :cond_c
  
      move v2, v0
  
