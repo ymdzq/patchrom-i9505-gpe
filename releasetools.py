@@ -8,6 +8,17 @@ def RemoveDeviceAssert(info):
       edify.script[i] = ''
       return
 
+def AddLoki(info):
+  info.script.script = [cmd for cmd in info.script.script if not "boot.img" in cmd]
+  info.script.script = [cmd for cmd in info.script.script if not "show_progress(0.100000, 0);" in cmd]
+  info.script.AppendExtra('package_extract_dir("system/kernel", "/tmp");')
+  info.script.AppendExtra('package_extract_file("boot.img", "/tmp/boot.img");')
+  info.script.AppendExtra('set_perm(0, 0, 0777, "/tmp/loki_bootloaders");')
+  info.script.AppendExtra('set_perm(0, 0, 0777, "/tmp/flash_kernel.sh");')
+  info.script.AppendExtra('set_perm(0, 0, 0777, "/tmp/loki_patch");')
+  info.script.AppendExtra('set_perm(0, 0, 0777, "/tmp/loki_flash");')
+  info.script.AppendExtra('run_program("/tmp/flash_kernel.sh");')
+  #info.script.AppendExtra('delete_recursive("/system/kernel");')
 
 #def AddArgsForFormatSystem(info):
   #edify = info.script
@@ -30,6 +41,7 @@ def InstallImage(img_name, img_file, partition, info):
 
 def FullOTA_InstallEnd(info):
   RemoveDeviceAssert(info)
+  AddLoki(info)
 
 def IncrementalOTA_InstallEnd(info):
   RemoveDeviceAssert(info)
