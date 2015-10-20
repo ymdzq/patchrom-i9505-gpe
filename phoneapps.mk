@@ -1,17 +1,25 @@
-local-phone-apps = BCService \
+local-phone-apps = BasicDreams \
+                 BCService \
                  Bluetooth \
                  BluetoothTest \
                  CABLService \
+		 CertInstaller \
                  CellBroadcastReceiver \
                  DigitalPenWorkService \
                  FMRecord \
+		 Galaxy4 \
                  GoogleCamera \
+		 HoloSpiralWallpaper \
                  HTMLViewer \
                  KeyChain \
+		 LiveWallpapers \
+		 MagicSmokeWallpapers \
                  NfcNci \
+		 NoiseField \
                  PacProcessor \
-		 Pinyin \
+		 PhaseBeam \
                  Preconfig \
+		 PrintSpooler \
                  qcrilmsgtunnel \
                  SCParser \
                  shutdownlistener \
@@ -22,6 +30,7 @@ local-phone-apps = BCService \
                  TimeService \
                  USBSettings \
                  UserDictionaryProvider \
+		 VisualizationWallpapers \
                  WAPPushManager \
                  WlanTest
 
@@ -35,4 +44,5 @@ local-phone-priv-apps = BackupRestoreConfirmation \
                     SharedStorageBackup \
                     Shell \
                     TagGoogle \
-                    VpnDialogs
+                    VpnDialogs \
+		    WallpaperCropper
