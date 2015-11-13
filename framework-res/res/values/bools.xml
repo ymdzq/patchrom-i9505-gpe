@@ -91,7 +91,7 @@
     <bool name="config_combined_signal">true</bool>
     <bool name="config_hotswapCapable">true</bool>
     <bool name="config_using_patterned_svc_led">true</bool>
-    <bool name="config_dynamic_automatic_brightness_available">true</bool>
+    <bool name="config_dynamic_automatic_brightness_available">false</bool>
     <bool name="config_button_automatic_brightness_available">false</bool>
     <bool name="lockscreen_isPortrait">true</bool>
     <bool name="config_isSViewCover">true</bool>
