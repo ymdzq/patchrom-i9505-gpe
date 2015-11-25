@@ -1,8 +1,6 @@
-out/
-*.zip
+/out/*
+stockrom.zip
 *.pyc
-log*.txt
-test/
-temp/
+/temp/*
 updater/
 *delete-zip-file-when-clean
