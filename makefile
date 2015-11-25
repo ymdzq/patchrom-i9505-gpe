@@ -19,7 +19,7 @@ local-modified-jars :=
 # All apks from MIUI
 local-miui-removed-apps := 
 
-local-miui-modified-apps := DeskClock miuisystem MiuiHome SecurityCenter TeleService
+local-miui-modified-apps := DeskClock miuisystem MiuiHome SecurityCenter TeleService XiaomiServiceFramework
 
 local-density := XXHDPI
 
@@ -55,8 +55,8 @@ local-pre-zip-misc:
 
 	@echo Replace system files
 	cp -rf other/system $(ZIP_DIR)/
-	cp $(SYSOUT_DIR)/app/QuickSearchBox.apk $(ZIP_DIR)/system/priv-app/QuickSearchBox.apk
-	rm -rf $(ZIP_DIR)/system/app/QuickSearchBox.apk
+	#cp $(SYSOUT_DIR)/app/QuickSearchBox.apk $(ZIP_DIR)/system/priv-app/QuickSearchBox.apk
+	#rm -rf $(ZIP_DIR)/system/app/QuickSearchBox.apk
 
 	@echo Use stock bin files to avoid xposed bootloops
 	rm -rf $(ZIP_DIR)/system/bin/app_process_vendor
