@@ -4716,9 +4716,9 @@
 
     const/4 v7, -0x1
 
-    const/4 v3, 0x0
+    const/4 v4, 0x0
 
-    const/4 v4, 0x1
+    const/4 v3, 0x1
 
     .line 3484
     iget-object v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mTopFullscreenOpaqueWindowState:Landroid/view/WindowManagerPolicy$WindowState;
@@ -4738,7 +4738,7 @@
     if-ne v5, v6, :cond_0
 
     .line 3486
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForcingShowNavBar:Z
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForcingShowNavBar:Z
 
     .line 3487
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->getSurfaceLayer()I
@@ -4751,19 +4751,19 @@
     :cond_0
     iget-object v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mTopFullscreenOpaqueWindowState:Landroid/view/WindowManagerPolicy$WindowState;
 
-    if-nez v5, :cond_b
+    if-nez v5, :cond_a
 
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->isVisibleOrBehindKeyguardLw()Z
 
     move-result v5
 
-    if-eqz v5, :cond_b
+    if-eqz v5, :cond_a
 
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->isGoneForLayoutLw()Z
 
     move-result v5
 
-    if-nez v5, :cond_b
+    if-nez v5, :cond_a
 
     .line 3491
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->flags:I
@@ -4775,10 +4775,10 @@
     .line 3492
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    if-ne v5, v8, :cond_c
+    if-ne v5, v8, :cond_b
 
     .line 3493
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
     .line 3498
     :cond_1
@@ -4788,29 +4788,29 @@
     if-ne v5, v8, :cond_2
 
     .line 3499
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingLockscreen:Z
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingLockscreen:Z
 
     .line 3501
     :cond_2
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    if-lt v5, v4, :cond_3
+    if-lt v5, v3, :cond_miui_3
 
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->type:I
 
     const/16 v6, 0x63
 
-    if-le v5, v6, :cond_4
+    if-le v5, v6, :cond_miui_4
 
-    :cond_3
+    :cond_miui_3
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->type:I
 
     const/16 v6, 0x832
 
-    if-ne v5, v6, :cond_d
+    if-ne v5, v6, :cond_c
 
-    :cond_4
-    move v0, v4
+    :cond_miui_4
+    move v0, v3
 
     .line 3504
     .local v0, "appWindow":Z
@@ -4819,43 +4819,43 @@
 
     const/16 v6, 0x7e7
 
-    if-ne v5, v6, :cond_6
+    if-ne v5, v6, :cond_4
 
     .line 3507
     iget-boolean v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDreamingLockscreen:Z
 
-    if-eqz v5, :cond_5
+    if-eqz v5, :cond_3
 
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->isVisibleLw()Z
 
     move-result v5
 
-    if-eqz v5, :cond_6
+    if-eqz v5, :cond_4
 
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->hasDrawnLw()Z
 
     move-result v5
 
-    if-eqz v5, :cond_6
+    if-eqz v5, :cond_4
 
     .line 3509
-    :cond_5
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingDream:Z
+    :cond_3
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingDream:Z
 
     .line 3510
     const/4 v0, 0x1
 
     .line 3514
-    :cond_6
+    :cond_4
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->flags:I
 
     const/high16 v6, 0x80000
 
     and-int/2addr v5, v6
 
-    if-eqz v5, :cond_e
+    if-eqz v5, :cond_d
 
-    move v2, v4
+    move v2, v3
 
     .line 3515
     .local v2, "showWhenLocked":Z
@@ -4866,28 +4866,28 @@
 
     and-int/2addr v5, v6
 
-    if-eqz v5, :cond_f
+    if-eqz v5, :cond_e
 
-    move v1, v4
+    move v1, v3
 
     .line 3516
     .local v1, "dismissKeyguard":Z
     :goto_3
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_a
 
     .line 3517
-    if-nez v2, :cond_7
+    if-nez v2, :cond_5
 
-    if-eqz v1, :cond_10
+    if-eqz v1, :cond_f
 
     invoke-virtual {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->isKeyguardSecure()Z
 
     move-result v5
 
-    if-nez v5, :cond_10
+    if-nez v5, :cond_f
 
     .line 3518
-    :cond_7
+    :cond_5
     iget-object v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAppsToBeHidden:Ljava/util/HashSet;
 
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->getAppToken()Landroid/view/IApplicationToken;
@@ -4900,19 +4900,19 @@
     :goto_4
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->x:I
 
-    if-nez v5, :cond_b
+    if-nez v5, :cond_a
 
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->y:I
 
-    if-nez v5, :cond_b
+    if-nez v5, :cond_a
 
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->width:I
 
-    if-ne v5, v7, :cond_b
+    if-ne v5, v7, :cond_a
 
     iget v5, p2, Landroid/view/WindowManager$LayoutParams;->height:I
 
-    if-ne v5, v7, :cond_b
+    if-ne v5, v7, :cond_a
 
     .line 3526
     iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mTopFullscreenOpaqueWindowState:Landroid/view/WindowManagerPolicy$WindowState;
@@ -4924,29 +4924,29 @@
 
     move-result v5
 
-    if-eqz v5, :cond_a
+    if-eqz v5, :cond_7
 
     .line 3528
-    if-eqz v2, :cond_8
+    if-eqz v2, :cond_6
 
     .line 3531
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHideLockScreen:Z
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHideLockScreen:Z
 
     .line 3532
-    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
+    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
     .line 3534
-    :cond_8
-    if-eqz v1, :cond_a
+    :cond_6
+    if-eqz v1, :cond_7
 
     iget v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDismissKeyguard:I
 
-    if-nez v5, :cond_a
+    if-nez v5, :cond_7
 
     .line 3536
     iget-object v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mWinDismissingKeyguard:Landroid/view/WindowManagerPolicy$WindowState;
 
-    if-ne v5, p1, :cond_11
+    if-ne v5, p1, :cond_10
 
     const/4 v5, 0x2
 
@@ -4959,66 +4959,86 @@
     .line 3539
     iget-boolean v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingLockscreen:Z
 
-    if-eqz v5, :cond_9
+    if-eqz v5, :cond_11
 
     invoke-virtual {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->isKeyguardSecure()Z
 
     move-result v5
 
-    if-eqz v5, :cond_9
+    if-eqz v5, :cond_11
 
-    move v3, v4
+    move v5, v3
 
-    :cond_9
-    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
+    :goto_6
+    iput-boolean v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
     .line 3542
-    :cond_a
-    iget v3, p2, Landroid/view/WindowManager$LayoutParams;->flags:I
+    :cond_7
+    iget v5, p2, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    and-int/lit8 v3, v3, 0x1
+    const/4 v6, 0x3
 
-    if-eqz v3, :cond_b
+    if-eq v5, v6, :cond_9
+
+    iget-object v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAppsToBeHidden:Ljava/util/HashSet;
+
+    invoke-virtual {v5}, Ljava/util/HashSet;->isEmpty()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_8
+
+    if-nez v2, :cond_9
+
+    :cond_8
+    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHideLockScreen:Z
+
+    :cond_9
+    iget v4, p2, Landroid/view/WindowManager$LayoutParams;->flags:I
+
+    and-int/lit8 v4, v4, 0x1
+
+    if-eqz v4, :cond_a
 
     .line 3543
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAllowLockscreenWhenOn:Z
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAllowLockscreenWhenOn:Z
 
     .line 3548
     .end local v0    # "appWindow":Z
     .end local v1    # "dismissKeyguard":Z
     .end local v2    # "showWhenLocked":Z
-    :cond_b
+    :cond_a
     return-void
 
     .line 3495
-    :cond_c
-    iput-boolean v4, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBar:Z
+    :cond_b
+    iput-boolean v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBar:Z
 
     goto/16 :goto_0
 
-    :cond_d
-    move v0, v3
+    :cond_c
+    move v0, v4
 
     .line 3501
     goto/16 :goto_1
 
     .restart local v0    # "appWindow":Z
-    :cond_e
-    move v2, v3
+    :cond_d
+    move v2, v4
 
     .line 3514
     goto :goto_2
 
     .restart local v2    # "showWhenLocked":Z
-    :cond_f
-    move v1, v3
+    :cond_e
+    move v1, v4
 
     .line 3515
     goto :goto_3
 
     .line 3520
     .restart local v1    # "dismissKeyguard":Z
-    :cond_10
+    :cond_f
     iget-object v5, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAppsToBeHidden:Ljava/util/HashSet;
 
     invoke-interface {p1}, Landroid/view/WindowManagerPolicy$WindowState;->getAppToken()Landroid/view/IApplicationToken;
@@ -5029,11 +5049,16 @@
 
     goto :goto_4
 
+    :cond_10
+    move v5, v3
+
+    goto :goto_5
+
     :cond_11
     move v5, v4
 
     .line 3536
-    goto :goto_5
+    goto :goto_6
 .end method
 
 .method public beginLayoutLw(ZIII)V
@@ -6673,46 +6698,32 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 3464
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mTopFullscreenOpaqueWindowState:Landroid/view/WindowManagerPolicy$WindowState;
 
-    .line 3465
     iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAppsToBeHidden:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clear()V
 
-    .line 3466
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBar:Z
 
-    .line 3467
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForceStatusBarFromKeyguard:Z
 
-    .line 3468
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForcingShowNavBar:Z
 
-    .line 3469
     const/4 v0, -0x1
 
     iput v0, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mForcingShowNavBarLayer:I
 
-    .line 3471
-    iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mHideLockScreen:Z
-
-    .line 3472
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mAllowLockscreenWhenOn:Z
 
-    .line 3473
     iput v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDismissKeyguard:I
 
-    .line 3474
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingLockscreen:Z
 
-    .line 3475
     iput-boolean v1, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mShowingDream:Z
 
-    .line 3476
     return-void
 .end method
 
@@ -6798,78 +6809,90 @@
 .end method
 
 .method public checkAddPermission(Landroid/view/WindowManager$LayoutParams;[I)I
-    .locals 4
+    .locals 6
     .param p1, "attrs"    # Landroid/view/WindowManager$LayoutParams;
     .param p2, "outAppOp"    # [I
 
     .prologue
+    const/16 v5, 0xbb7
+
+    const/16 v4, 0x7d0
+
     const/4 v2, 0x0
 
-    .line 1288
     iget v1, p1, Landroid/view/WindowManager$LayoutParams;->type:I
 
-    .line 1290
     .local v1, "type":I
     const/4 v3, -0x1
 
     aput v3, p2, v2
 
-    .line 1292
-    const/16 v3, 0x7d0
+    const/4 v3, 0x1
 
     if-lt v1, v3, :cond_0
 
-    const/16 v3, 0xbb7
+    const/16 v3, 0x63
 
-    if-le v1, v3, :cond_1
+    if-le v1, v3, :cond_4
 
-    .line 1326
     :cond_0
+    const/16 v3, 0x3e8
+
+    if-lt v1, v3, :cond_1
+
+    const/16 v3, 0x7cf
+
+    if-le v1, v3, :cond_4
+
+    :cond_1
+    if-lt v1, v4, :cond_2
+
+    if-le v1, v5, :cond_4
+
+    :cond_2
+    const/16 v2, -0xa
+
+    :cond_3
     :goto_0
     return v2
 
-    .line 1296
-    :cond_1
+    :cond_4
+    if-lt v1, v4, :cond_3
+
+    if-gt v1, v5, :cond_3
+
     const/4 v0, 0x0
 
-    .line 1297
     .local v0, "permission":Ljava/lang/String;
     sparse-switch v1, :sswitch_data_0
 
-    .line 1318
     const-string v0, "android.permission.INTERNAL_SYSTEM_WINDOW"
 
-    .line 1320
     :goto_1
     :sswitch_0
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_3
 
-    .line 1321
     iget-object v3, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mContext:Landroid/content/Context;
 
     invoke-virtual {v3, v0}, Landroid/content/Context;->checkCallingOrSelfPermission(Ljava/lang/String;)I
 
     move-result v3
 
-    if-eqz v3, :cond_0
+    if-eqz v3, :cond_3
 
-    .line 1323
     const/4 v2, -0x8
 
     goto :goto_0
 
-    .line 1314
     :sswitch_1
     const-string v0, "android.permission.SYSTEM_ALERT_WINDOW"
 
-    .line 1315
     const/16 v3, 0x18
 
     aput v3, p2, v2
 
     goto :goto_1
 
-    .line 1297
     :sswitch_data_0
     .sparse-switch
         0x7d2 -> :sswitch_1
@@ -13024,6 +13047,8 @@
     .line 3973
     :cond_4
     :goto_5
+    invoke-static/range {p0 .. p2}, Lcom/android/internal/policy/impl/PhoneWindowManagerInjector;->performReleaseHapticFeedback(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/view/KeyEvent;I)V
+
     if-eqz p3, :cond_5
 
     move-object/from16 v0, p0

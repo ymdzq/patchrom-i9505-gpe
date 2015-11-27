@@ -28,6 +28,8 @@
 
 .field static final TRANSACTION_checkOperation:I = 0x1
 
+.field static final TRANSACTION_checkOperationInternal:I = 0xe
+
 .field static final TRANSACTION_checkPackage:I = 0x8
 
 .field static final TRANSACTION_finishOperation:I = 0x4
@@ -39,6 +41,8 @@
 .field static final TRANSACTION_getToken:I = 0x7
 
 .field static final TRANSACTION_noteOperation:I = 0x2
+
+.field static final TRANSACTION_registerCallback:I = 0xd
 
 .field static final TRANSACTION_resetAllModes:I = 0xc
 

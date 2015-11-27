@@ -50,6 +50,8 @@
 
 .field static final TRANSACTION_setImeWindowStatus:I = 0xc
 
+.field static final TRANSACTION_setStatus:I = 0x12
+
 .field static final TRANSACTION_setSystemUiVisibility:I = 0xa
 
 .field static final TRANSACTION_setWindowState:I = 0x11
