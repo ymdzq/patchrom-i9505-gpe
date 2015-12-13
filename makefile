@@ -19,7 +19,7 @@ local-modified-jars :=
 # All apks from MIUI
 local-miui-removed-apps := 
 
-local-miui-modified-apps := DeskClock miuisystem MiuiHome SecurityCenter TeleService XiaomiServiceFramework
+local-miui-modified-apps := DeskClock miuisystem MiuiHome TeleService XiaomiServiceFramework
 
 local-density := XXHDPI
 

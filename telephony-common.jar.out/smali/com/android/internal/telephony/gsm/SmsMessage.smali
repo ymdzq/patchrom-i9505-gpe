@@ -21,6 +21,8 @@
 # instance fields
 .field private mDataCodingScheme:I
 
+.field private mEncodingType:I
+
 .field private mIsStatusReportMessage:Z
 
 .field private mMti:I
@@ -56,6 +58,8 @@
 
     .line 90
     iput v0, p0, Lcom/android/internal/telephony/gsm/SmsMessage;->mVoiceMailCount:I
+
+    iput v0, p0, Lcom/android/internal/telephony/gsm/SmsMessage;->mEncodingType:I
 
     .line 498
     return-void
@@ -2518,6 +2522,8 @@
     .end local v5    # "msg":Lcom/android/internal/telephony/SmsHeader$SpecialSmsMsg;
     .end local v6    # "msgInd":I
     :cond_17
+    iput v2, p0, Lcom/android/internal/telephony/gsm/SmsMessage;->mEncodingType:I
+
     packed-switch v2, :pswitch_data_1
 
     .line 1270
@@ -2689,6 +2695,15 @@
     .prologue
     .line 801
     iget v0, p0, Lcom/android/internal/telephony/gsm/SmsMessage;->mDataCodingScheme:I
+
+    return v0
+.end method
+
+.method public getEncodingType()I
+    .locals 1
+
+    .prologue
+    iget v0, p0, Lcom/android/internal/telephony/gsm/SmsMessage;->mEncodingType:I
 
     return v0
 .end method
