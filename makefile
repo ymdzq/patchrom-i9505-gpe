@@ -19,9 +19,12 @@ local-modified-jars :=
 # All apks from MIUI
 local-miui-removed-apps := 
 
-local-miui-modified-apps := DeskClock miuisystem MiuiHome TeleService XiaomiServiceFramework
+local-miui-modified-apps := DeskClock miuisystem MiuiHome SecurityCenter TeleService XiaomiServiceFramework
 
 local-density := XXHDPI
+
+# The certificate for release version
+local-certificate-dir := security
 
 # To include the local targets before and after zip the final ZIP file, 
 # and the local-targets should:

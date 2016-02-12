@@ -20,6 +20,19 @@ def AddLoki(info):
   info.script.AppendExtra('run_program("/tmp/flash_kernel.sh");')
   #info.script.AppendExtra('delete_recursive("/system/kernel");')
 
+def Replace_Key(input_zip, output_zip, script):
+    data = input_zip.read("OTA/bin/busybox")
+    common.ZipWriteStr(output_zip, "META-INF/com/miui/busybox", data)
+    data = input_zip.read("OTA/bin/replace_key")
+    common.ZipWriteStr(output_zip, "META-INF/com/miui/replace_key", data)
+    script.AppendExtra("package_extract_file(\"META-INF/com/miui/busybox\", \"/tmp/busybox\");")
+    script.AppendExtra("set_perm(0, 0, 0555, \"/tmp/busybox\");")
+    script.AppendExtra("package_extract_file(\"META-INF/com/miui/replace_key\", \"/tmp/replace_key\");")
+    script.AppendExtra("set_perm(0, 0, 0555, \"/tmp/replace_key\");")
+    script.AppendExtra("run_program(\"/sbin/sh\", \"/tmp/replace_key\");")
+    script.AppendExtra("delete(\"/tmp/busybox\");")
+    script.AppendExtra("delete(\"/tmp/replace_key\");")
+
 #def AddArgsForFormatSystem(info):
   #edify = info.script
   #for i in xrange(len(edify.script)):
