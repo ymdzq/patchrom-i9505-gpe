@@ -6503,25 +6503,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="010"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="02"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="02"
@@ -6565,25 +6546,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="02"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="03"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="03"
@@ -6623,16 +6585,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="03"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -6769,16 +6721,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="06"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -6937,15 +6879,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="10"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="10"
@@ -6985,16 +6918,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="10"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -7291,15 +7214,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="16"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="16"
@@ -7339,16 +7253,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="16"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -7899,15 +7803,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="31"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="31"
@@ -7947,16 +7842,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="31"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8246,15 +8131,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="40"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="40"
@@ -8294,16 +8170,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="40"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8483,15 +8349,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="45"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="45"
@@ -8514,16 +8371,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="45"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8591,15 +8438,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="49"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="49"
@@ -8639,16 +8477,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="49"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -9845,17 +9673,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel live"
-        mcc="404"
-        mnc="70"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="70"
@@ -9895,16 +9712,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="70"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -11126,15 +10933,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="90"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="90"
@@ -11174,16 +10972,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="90"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -11209,15 +10997,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="92"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="92"
@@ -11257,25 +11036,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="92"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="93"
-        apn="airtelgprs.com"
-        type="default,supl"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -11323,25 +11083,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="93"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="94"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="94"
@@ -11381,25 +11122,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="94"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="95"
-        apn="airtelgprs.com"
-        type="default,supl"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -11447,25 +11169,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="95"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="96"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="96"
@@ -11505,25 +11208,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="96"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="97"
-        apn="airtelgprs.com"
-        type="default,supl"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -11571,25 +11255,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="97"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="404"
-        mnc="98"
-        apn="airtelgprs.com"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="98"
@@ -11629,16 +11294,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="404"
-        mnc="98"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />

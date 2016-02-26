@@ -136,35 +136,3 @@
         }
     .end annotation
 .end method
-
-.method public abstract setMiuiTelephony(Lmiui/telephony/IMiuiTelephony;)V
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
-.end method
-
-.method public abstract getMiuiTelephony()Lmiui/telephony/IMiuiTelephony;
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
-.end method
-
-.method public abstract setMiuiTelephony(Lmiui/telephony/IMiuiTelephony;)V
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
-.end method
-
-.method public abstract getMiuiTelephony()Lmiui/telephony/IMiuiTelephony;
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
-.end method
