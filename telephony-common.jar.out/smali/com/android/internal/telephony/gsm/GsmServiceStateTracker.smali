@@ -12568,6 +12568,29 @@
     :goto_6
     move-object/from16 v0, p0
 
+    iget-object v14, v0, Lcom/android/internal/telephony/gsm/GsmServiceStateTracker;->mSS:Landroid/telephony/ServiceState;
+
+    invoke-virtual {v14}, Landroid/telephony/ServiceState;->getOperatorNumeric()Ljava/lang/String;
+
+    move-result-object v14
+
+    invoke-static {v14, v12, v7}, Lmiui/telephony/ServiceProviderUtils;->get(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v7
+
+    if-eqz v3, :cond_miui_1
+
+    invoke-virtual {v3}, Lcom/android/internal/telephony/uicc/IccRecords;->getOperatorNumeric()Ljava/lang/String;
+
+    move-result-object v14
+
+    invoke-static {v14, v12, v13}, Lmiui/telephony/ServiceProviderUtils;->get(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v13
+
+    :cond_miui_1
+    move-object/from16 v0, p0
+
     iget-boolean v14, v0, Lcom/android/internal/telephony/gsm/GsmServiceStateTracker;->mCurShowPlmn:Z
 
     if-ne v11, v14, :cond_d
