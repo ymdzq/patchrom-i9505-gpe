@@ -6482,25 +6482,13 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Mobile Office"
+    <apn carrier="AIRTEL LIVE"
         mcc="404"
-        mnc="010"
-        apn="airtelgprs.com"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="010"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        mnc="02"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Airtel MMS"
@@ -6509,11 +6497,9 @@
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -6534,16 +6520,13 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel MMS"
+    <apn carrier="AIRTEL LIVE"
         mcc="404"
-        mnc="02"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        mnc="03"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Airtel MMS"
@@ -6552,11 +6535,9 @@
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -6573,18 +6554,6 @@
         mnc="03"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="03"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -6879,17 +6848,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="10"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="10"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -6906,18 +6882,6 @@
         mnc="10"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="10"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -7214,17 +7178,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="16"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="16"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -7241,18 +7212,6 @@
         mnc="16"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="16"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -7803,17 +7762,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="31"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="31"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -7830,18 +7796,6 @@
         mnc="31"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="31"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8131,17 +8085,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="40"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="40"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -8158,18 +8119,6 @@
         mnc="40"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="40"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8349,30 +8298,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="45"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="45"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="45"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
         mmsport="8799"
-        mmsproxy="100.1.201.172"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Vodafone Connect"
@@ -8438,17 +8381,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="49"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="49"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -8465,18 +8415,6 @@
         mnc="49"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="49"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -9673,17 +9611,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="70"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="70"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -9700,18 +9645,6 @@
         mnc="70"
         apn="airtelgprs.com"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="70"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -10933,19 +10866,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="90"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Mobile Office"
         mcc="404"
         mnc="90"
@@ -10964,16 +10884,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="90"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="90"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Aircel Internet"
@@ -10997,19 +10925,6 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="92"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
     <apn carrier="Mobile Office"
         mcc="404"
         mnc="92"
@@ -11028,29 +10943,24 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel MMS"
+    <apn carrier="AIRTEL LIVE"
         mcc="404"
         mnc="92"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Airtel MMS"
         mcc="404"
-        mnc="93"
+        mnc="92"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -11071,29 +10981,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="93"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="93"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="94"
-        apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -11114,29 +11019,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="94"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="94"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="404"
-        mnc="95"
-        apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -11157,29 +11057,24 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Airtel MMS"
+    <apn carrier="AIRTEL LIVE"
         mcc="404"
         mnc="95"
-        apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Airtel MMS"
         mcc="404"
-        mnc="96"
+        mnc="95"
         apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Mobile Office"
@@ -11200,16 +11095,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="96"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="96"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Airtel MMS"
@@ -11243,16 +11146,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="97"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="97"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Airtel MMS"
@@ -11286,16 +11197,24 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="AIRTEL LIVE"
+        mcc="404"
+        mnc="98"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
+    />
+
     <apn carrier="Airtel MMS"
         mcc="404"
         mnc="98"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsproxy="100.1.201.172"
+        mmsport="8799"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Netconnect"
@@ -13892,24 +13811,6 @@
         type="mms"
     />
 
-    <apn carrier="AIRTEL LIVE"
-        mcc="405"
-        mnc="51"
-        apn="airtelgprs.com"
-        type="default,supl"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="405"
-        mnc="51"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-    />
-
     <apn carrier="Mobile Office"
         mcc="405"
         mnc="51"
@@ -13928,36 +13829,20 @@
         mcc="405"
         mnc="51"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="405"
-        mnc="51"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="405"
-        mnc="52"
-        apn="airtelgprs.com"
-        type="default,supl"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="405"
-        mnc="52"
-        apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
+    />
+
+    <apn carrier="AIRTEL LIVE"
+        mcc="405"
+        mnc="51"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Mobile Office"
@@ -13978,36 +13863,20 @@
         mcc="405"
         mnc="52"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
     />
 
-    <apn carrier="Airtel Live"
+    <apn carrier="AIRTEL LIVE"
         mcc="405"
         mnc="52"
-        apn="airtelgprs.com"
-        port="8080"
+        apn="airtelfun.com"
         proxy="100.1.200.99"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="405"
-        mnc="53"
-        apn="airtelgprs.com"
+        port="8080"
         type="default,supl"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="405"
-        mnc="53"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
     />
 
     <apn carrier="Mobile Office"
@@ -14028,36 +13897,20 @@
         mcc="405"
         mnc="53"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
     />
 
-    <apn carrier="Airtel Live"
+    <apn carrier="AIRTEL LIVE"
         mcc="405"
         mnc="53"
-        apn="airtelgprs.com"
-        port="8080"
+        apn="airtelfun.com"
         proxy="100.1.200.99"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="405"
-        mnc="54"
-        apn="airtelgprs.com"
+        port="8080"
         type="default,supl"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="405"
-        mnc="54"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
     />
 
     <apn carrier="Mobile Office"
@@ -14078,36 +13931,20 @@
         mcc="405"
         mnc="54"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
     />
 
-    <apn carrier="Airtel Live"
+    <apn carrier="AIRTEL LIVE"
         mcc="405"
         mnc="54"
-        apn="airtelgprs.com"
-        port="8080"
+        apn="airtelfun.com"
         proxy="100.1.200.99"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="405"
-        mnc="55"
-        apn="airtelgprs.com"
+        port="8080"
         type="default,supl"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="405"
-        mnc="55"
-        apn="airtelmms.com"
-        authtype="1"
-        mmsc="http://100.1.201.171:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
     />
 
     <apn carrier="Mobile Office"
@@ -14128,36 +13965,20 @@
         mcc="405"
         mnc="55"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
-        mmsport="8799"
-        mmsproxy="100.1.201.172"
-        type="mms"
-    />
-
-    <apn carrier="Airtel Live"
-        mcc="405"
-        mnc="55"
-        apn="airtelgprs.com"
-        port="8080"
-        proxy="100.1.200.99"
-    />
-
-    <apn carrier="AIRTEL LIVE"
-        mcc="405"
-        mnc="56"
-        apn="airtelgprs.com"
-        type="default,supl"
-    />
-
-    <apn carrier="Airtel MMS"
-        mcc="405"
-        mnc="56"
-        apn="airtelmms.com"
         authtype="1"
         mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
+    />
+
+    <apn carrier="AIRTEL LIVE"
+        mcc="405"
+        mnc="55"
+        apn="airtelfun.com"
+        proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Mobile Office"
@@ -14178,18 +13999,20 @@
         mcc="405"
         mnc="56"
         apn="airtelmms.com"
-        mmsc="http://100.1.201.171:10021/mmsc/"
+        authtype="1"
+        mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
     />
 
-    <apn carrier="Airtel Live"
+    <apn carrier="AIRTEL LIVE"
         mcc="405"
         mnc="56"
-        apn="airtelgprs.com"
-        port="8080"
+        apn="airtelfun.com"
         proxy="100.1.200.99"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="Vodafone Connect"
