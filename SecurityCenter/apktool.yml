@@ -1,0 +1,12 @@
+version: 2.0.0-RC4
+apkFileName: SecurityCenter.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 16
+  - 17
+  - 18
+packageInfo:
+  rename-manifest-package: com.miui.securitycenter
+compressionType: false

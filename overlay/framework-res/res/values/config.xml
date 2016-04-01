@@ -40,5 +40,5 @@
         <item>com.baidu.map.location</item>
     </string-array>
     <string name="default_wallpaper_component">@null</string>
-    <string name="config_networkLocationProviderPackageName">com.baidu.map.location</string>
+    <string name="config_networkLocationProviderPackageName">com.amap.android.location</string>
 </resources>

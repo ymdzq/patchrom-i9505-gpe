@@ -1,15 +1,15 @@
-From 476b22482afb5b321a3913f76fc09b5217362da2 Mon Sep 17 00:00:00 2001
+From f4e647d8e33f7f6bf5f0101451b49dfc0ecf581c Mon Sep 17 00:00:00 2001
 From: ymdzq <233900743@qq.com>
-Date: Sun, 14 Feb 2016 14:33:39 +0800
+Date: Tue, 29 Mar 2016 16:26:33 +0800
 Subject: [PATCH] fix some miui apk sign
 
 ---
- .../android/server/pm/PackageManagerService.smali  | 54 ++++++++++++++++++++++
- 1 file changed, 54 insertions(+)
+ .../android/server/pm/PackageManagerService.smali  | 108 +++++++++++++++++++++
+ 1 file changed, 108 insertions(+)
 
 --- a/services/smali/com/android/server/pm/PackageManagerService.smali
 +++ b/services/smali/com/android/server/pm/PackageManagerService.smali
-@@ -18168,6 +18168,30 @@
+@@ -15375,6 +15375,54 @@
  
      iget-object v4, v0, Landroid/content/pm/PackageParser$Package;->mSignatures:[Landroid/content/pm/Signature;
  
@@ -37,10 +37,34 @@ Subject: [PATCH] fix some miui apk sign
 +
 +    if-nez v0, :cond_0
 +
++    const-string v0, "com.xiaomi.gamecenter"
++
++    invoke-virtual {v0, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v0
++
++    if-nez v0, :cond_0
++
++    const-string v0, "com.xiaomi.miclick"
++
++    invoke-virtual {v0, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v0
++
++    if-nez v0, :cond_0
++
++    const-string v0, "com.miui.player"
++
++    invoke-virtual {v0, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v0
++
++    if-nez v0, :cond_0
++
      invoke-static {v1, v4}, Lcom/android/server/pm/PackageManagerService;->compareSignatures([Landroid/content/pm/Signature;[Landroid/content/pm/Signature;)I
  
      move-result v1
-@@ -30404,6 +30428,36 @@
+@@ -26637,6 +26685,66 @@
      .prologue
      const/4 v0, 0x0
  
@@ -74,9 +98,39 @@ Subject: [PATCH] fix some miui apk sign
 +
 +    if-nez v1, :cond_1
 +
++    const-string v1, "com.xiaomi.gamecenter"
++
++    iget-object v3, p2, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++
++    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v1
++
++    if-nez v1, :cond_1
++
++    const-string v1, "com.xiaomi.miclick"
++
++    iget-object v3, p2, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++
++    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v1
++
++    if-nez v1, :cond_1
++
++    const-string v1, "com.miui.player"
++
++    iget-object v3, p2, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++
++    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v1
++
++    if-nez v1, :cond_1
++
      iget-object v1, p1, Lcom/android/server/pm/PackageSetting;->signatures:Lcom/android/server/pm/PackageSignatures;
  
      iget-object v1, v1, Lcom/android/server/pm/PackageSignatures;->mSignatures:[Landroid/content/pm/Signature;
 -- 
-2.7.0.rc3
+2.5.0
 

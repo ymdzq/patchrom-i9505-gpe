@@ -809,16 +809,29 @@
     .param p2, "opts"    # Landroid/graphics/BitmapFactory$Options;
 
     .prologue
-    .line 617
+    :try_start_0
+    invoke-virtual {p0}, Ljava/io/InputStream;->available()I
+
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_miui_0
+
+    :catch_0
+    move-exception v0
+
+    const/4 v1, 0x0
+
+    return-object v1
+
+    :goto_miui_0
     const/4 v0, 0x0
 
-    .line 618
     .local v0, "tempStorage":[B
     if-eqz p2, :cond_0
 
     iget-object v0, p2, Landroid/graphics/BitmapFactory$Options;->inTempStorage:[B
 
-    .line 619
     :cond_0
     if-nez v0, :cond_1
 
