@@ -6626,54 +6626,31 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="Reliance MMS"
+        mcc="404"
+        mnc="09"
+        apn="mms"
+        mmsc="http://10.239.221.47/mms/"
+        mmsproxy="10.239.221.7"
+        mmsport="8080"
+        type="mms"
+    />
+
     <apn carrier="Reliance Net"
         mcc="404"
         mnc="09"
         apn="smartnet"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="09"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="404"
-        mnc="09"
-        apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="09"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Netconnect"
-        mcc="404"
-        mnc="09"
-        apn="smartnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Reliance Jio"
@@ -6944,57 +6921,40 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="Reliance MMS"
+        mcc="404"
+        mnc="18"
+        apn="mms"
+        mmsc="http://10.239.221.47/mms/"
+        mmsproxy="10.239.221.7"
+        mmsport="8080"
+        type="mms"
+    />
+
     <apn carrier="Reliance Net"
         mcc="404"
         mnc="18"
         apn="smartnet"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
-        mcc="404"
-        mnc="18"
-        apn="mms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.7"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="18"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance Netconnect"
+    <apn carrier="Reliance Internet (40418)"
         mcc="404"
         mnc="18"
         apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="18"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        type="default,supl,agps,fota,dun"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Netconnect"
@@ -7416,57 +7376,40 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="Reliance MMS"
+        mcc="404"
+        mnc="36"
+        apn="mms"
+        mmsc="http://10.239.221.47/mms/"
+        mmsproxy="10.239.221.7"
+        mmsport="8080"
+        type="mms"
+    />
+
     <apn carrier="Reliance Net"
         mcc="404"
         mnc="36"
         apn="smartnet"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
-        mcc="404"
-        mnc="36"
-        apn="mms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.7"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="36"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance Netconnect"
+    <apn carrier="Reliance Internet (40436)"
         mcc="404"
         mnc="36"
         apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="36"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        type="default,supl,agps,fota,dun"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Netconnect"
@@ -7761,57 +7704,31 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance RTel"
-        mcc="404"
-        mnc="50"
-        apn="smartnet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
+    <apn carrier="Reliance MMS"
         mcc="404"
         mnc="50"
         apn="mms"
         mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.7"
+        mmsport="8080"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="Reliance Net"
+        mcc="404"
+        mnc="50"
+        apn="smartnet"
+        type="default,supl"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="50"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="404"
-        mnc="50"
-        apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="50"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Netconnect"
@@ -7866,57 +7783,31 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance RTel"
-        mcc="404"
-        mnc="52"
-        apn="smartnet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
+    <apn carrier="Reliance MMS"
         mcc="404"
         mnc="52"
         apn="mms"
         mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.7"
+        mmsport="8080"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="Reliance Net"
+        mcc="404"
+        mnc="52"
+        apn="smartnet"
+        type="default,supl"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="52"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="404"
-        mnc="52"
-        apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="52"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Netconnect"
@@ -8300,77 +8191,31 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance RTel"
-        mcc="404"
-        mnc="67"
-        apn="smartnet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
+    <apn carrier="Reliance MMS"
         mcc="404"
         mnc="67"
         apn="mms"
         mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.7"
+        mmsport="8080"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="Reliance Net"
+        mcc="404"
+        mnc="67"
+        apn="smartnet"
+        type="default,supl"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="67"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="404"
-        mnc="67"
-        apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="67"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Netconnect"
-        mcc="404"
-        mnc="67"
-        apn="smartnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="R World"
-        mcc="404"
-        mnc="67"
-        apn="smartwap"
-        port="8080"
-        proxy="10.239.221.7"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="MTNL"
@@ -8823,57 +8668,31 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance RTel"
-        mcc="404"
-        mnc="83"
-        apn="smartnet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
+    <apn carrier="Reliance MMS"
         mcc="404"
         mnc="83"
         apn="mms"
         mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.7"
+        mmsport="8080"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="Reliance Net"
+        mcc="404"
+        mnc="83"
+        apn="smartnet"
+        type="default,supl"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="83"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="404"
-        mnc="83"
-        apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="83"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Netconnect"
@@ -8928,57 +8747,31 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="Reliance RTel"
-        mcc="404"
-        mnc="85"
-        apn="smartnet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance RTel MMS"
+    <apn carrier="Reliance MMS"
         mcc="404"
         mnc="85"
         apn="mms"
         mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.7"
+        mmsport="8080"
         type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="Reliance Net"
+        mcc="404"
+        mnc="85"
+        apn="smartnet"
+        type="default,supl"
     />
 
     <apn carrier="Reliance WAP"
         mcc="404"
         mnc="85"
         apn="smartwap"
-        port="8080"
         proxy="10.239.221.7"
+        port="8080"
+        authtype="1"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="404"
-        mnc="85"
-        apn="rcomnet"
-        type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="404"
-        mnc="85"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="Netconnect"
@@ -9361,30 +9154,30 @@
         type="default,supl"
     />
 
-    <apn carrier="RelianceMbWorld"
-        mcc="405"
-        mnc="01"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-
     <apn carrier="Reliance MMS"
         mcc="405"
         mnc="01"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
     />
 
-    <apn carrier="Reliance Netconnect"
+    <apn carrier="Netconnect"
         mcc="405"
         mnc="01"
         apn="rcomnet"
-        type="default"
+        type="default,supl"
+    />
+
+    <apn carrier="RelianceMbWorld"
+        mcc="405"
+        mnc="01"
+        apn="rcomwap"
+        proxy="10.239.221.5"
+        port="8080"
+        type="default,supl"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN"
@@ -9617,6 +9410,16 @@
         type="mms"
     />
 
+    <apn carrier="Reliance MMS"
+        mcc="405"
+        mnc="03"
+        apn="rcommms"
+        mmsc="http://mmsc.rcom.co.in/mms/"
+        mmsproxy="10.239.221.5"
+        mmsport="8080"
+        type="mms"
+    />
+
     <apn carrier="Netconnect"
         mcc="405"
         mnc="03"
@@ -9628,528 +9431,528 @@
         mcc="405"
         mnc="03"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="03"
+        mnc="04"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
+        mmsport="8080"
         type="mms"
     />
 
@@ -10164,426 +9967,426 @@
         mcc="405"
         mnc="04"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default,supl"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO DIVE-IN WAP"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.INTERNET"
+        port="8080"
+        proxy="10.124.94.7"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
+    <apn carrier="TATA DOCOMO MMS"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.MMS"
+        mmsc="http://mmsc/"
+        mmsport="8799"
+        mmsproxy="10.124.26.94"
+        type="mms"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="04"
+        mnc="05"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default,supl"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
-        type="mms"
-    />
-
-    <apn carrier="TATA DOCOMO DIVE-IN WAP"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.INTERNET"
-        port="8080"
-        proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
-
-    <apn carrier="TATA DOCOMO MMS"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.MMS"
-        mmsc="http://mmsc/"
-        mmsport="8799"
-        mmsproxy="10.124.26.94"
+        mmsport="8080"
         type="mms"
     />
 
@@ -10598,26 +10401,19 @@
         mcc="405"
         mnc="05"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="05"
+        mnc="06"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="05"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10631,26 +10427,19 @@
         mcc="405"
         mnc="06"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="06"
+        mnc="07"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="06"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10664,26 +10453,19 @@
         mcc="405"
         mnc="07"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="07"
+        mnc="08"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="07"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10697,18 +10479,18 @@
         mcc="405"
         mnc="08"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="08"
+        mnc="09"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
     />
 
@@ -10723,26 +10505,19 @@
         mcc="405"
         mnc="09"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="09"
+        mnc="10"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="09"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10756,26 +10531,19 @@
         mcc="405"
         mnc="10"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="10"
+        mnc="11"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="10"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10789,26 +10557,19 @@
         mcc="405"
         mnc="11"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="11"
+        mnc="12"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="11"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10822,18 +10583,18 @@
         mcc="405"
         mnc="12"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="12"
+        mnc="13"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
     />
 
@@ -10848,26 +10609,19 @@
         mcc="405"
         mnc="13"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="13"
+        mnc="14"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="13"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10881,18 +10635,18 @@
         mcc="405"
         mnc="14"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="14"
+        mnc="15"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
     />
 
@@ -10907,26 +10661,19 @@
         mcc="405"
         mnc="15"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="15"
+        mnc="17"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="15"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10940,18 +10687,18 @@
         mcc="405"
         mnc="17"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="17"
+        mnc="18"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
     />
 
@@ -10966,26 +10713,19 @@
         mcc="405"
         mnc="18"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="18"
+        mnc="19"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="18"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -10999,26 +10739,19 @@
         mcc="405"
         mnc="19"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="19"
+        mnc="20"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="19"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -11032,26 +10765,19 @@
         mcc="405"
         mnc="20"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="20"
+        mnc="21"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="20"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -11065,26 +10791,19 @@
         mcc="405"
         mnc="21"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="21"
+        mnc="22"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="21"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -11098,26 +10817,19 @@
         mcc="405"
         mnc="22"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
     />
 
     <apn carrier="Reliance MMS"
         mcc="405"
-        mnc="22"
+        mnc="23"
         apn="rcommms"
         mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
         mmsproxy="10.239.221.5"
+        mmsport="8080"
         type="mms"
-    />
-
-    <apn carrier="Reliance Netconnect"
-        mcc="405"
-        mnc="22"
-        apn="rcomnet"
-        type="default"
     />
 
     <apn carrier="Netconnect"
@@ -11131,20 +10843,10 @@
         mcc="405"
         mnc="23"
         apn="rcomwap"
-        port="8080"
         proxy="10.239.221.5"
+        port="8080"
         type="default,supl"
-    />
-
-    <apn carrier="Reliance MMS"
-        mcc="405"
-        mnc="23"
-        apn="rcommms"
-        mmsc="http://mmsc.rcom.co.in/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        type="mms"
-    />
+    />​
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
@@ -16938,10 +16640,12 @@
         type="default,supl,mms"
     />
 
-    <apn carrier="3gnet"
+    <apn carrier="3gwap"
         mcc="454"
         mnc="07"
-        apn="3gnet"
+        apn="3gwap"
+        proxy="10.0.0.172"
+        port="80"
         type="default,supl"
     />
 
@@ -17244,30 +16948,35 @@
         type="mms"
     />
 
-    <apn carrier="沃宽带用户连接互联网 (China Unicom)"
+    <apn carrier="沃宽带用户连接互联网"
         mcc="460"
         mnc="01"
         apn="3gnet"
         type="default,supl"
+        read_only ="true"
     />
 
-    <apn carrier="沃宽带用户手机上网 (China Unicom)"
+    <apn carrier="沃宽带用户手机上网"
         mcc="460"
         mnc="01"
         apn="3gwap"
-        port="80"
         proxy="10.0.0.172"
+        port="80"
         type="default,supl"
+        read_only ="true"
     />
 
-    <apn carrier="联通彩信 (China Unicom)"
+    <apn carrier="联通彩信"
         mcc="460"
         mnc="01"
         apn="3gwap"
-        mmsc="http://mmsc.myuni.com.cn"
-        mmsport="80"
+        proxy="10.0.0.172"
+        port="80"
         mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.myuni.com.cn"
         type="mms"
+        read_only ="true"
     />
 
     <apn carrier="中国移动 (China Mobile) GPRS"
@@ -17370,31 +17079,35 @@
         type="mms"
     />
 
-    <apn carrier="沃宽带用户连接互联网 (China Unicom)"
+    <apn carrier="沃宽带用户连接互联网"
         mcc="460"
         mnc="09"
         apn="3gnet"
         type="default,supl"
+        read_only ="true"
     />
 
-    <apn carrier="沃宽带用户手机上网 (China Unicom)"
+    <apn carrier="沃宽带用户手机上网"
         mcc="460"
         mnc="09"
         apn="3gwap"
-        port="80"
         proxy="10.0.0.172"
-        server="http://www.wo.com.cn"
-        type="default"
+        port="80"
+        type="default,supl"
+        read_only ="true"
     />
 
-    <apn carrier="联通彩信 (China Unicom)"
+    <apn carrier="联通彩信"
         mcc="460"
         mnc="09"
         apn="3gwap"
-        mmsc="http://mmsc.myuni.com.cn"
-        mmsport="80"
+        proxy="10.0.0.172"
+        port="80"
         mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.myuni.com.cn"
         type="mms"
+        read_only ="true"
     />
 
     <apn carrier="中国电信 (China Telecom) ctlte"

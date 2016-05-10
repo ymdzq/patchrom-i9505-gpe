@@ -1,15 +1,15 @@
-From f4e647d8e33f7f6bf5f0101451b49dfc0ecf581c Mon Sep 17 00:00:00 2001
+From 41471f267b0ade003a2c599010ed287575377d73 Mon Sep 17 00:00:00 2001
 From: ymdzq <233900743@qq.com>
-Date: Tue, 29 Mar 2016 16:26:33 +0800
+Date: Sat, 9 Apr 2016 18:09:13 +0800
 Subject: [PATCH] fix some miui apk sign
 
 ---
- .../android/server/pm/PackageManagerService.smali  | 108 +++++++++++++++++++++
- 1 file changed, 108 insertions(+)
+ .../android/server/pm/PackageManagerService.smali  | 126 +++++++++++++++++++++
+ 1 file changed, 126 insertions(+)
 
 --- a/services/smali/com/android/server/pm/PackageManagerService.smali
 +++ b/services/smali/com/android/server/pm/PackageManagerService.smali
-@@ -15375,6 +15375,54 @@
+@@ -15375,6 +15375,62 @@
  
      iget-object v4, v0, Landroid/content/pm/PackageParser$Package;->mSignatures:[Landroid/content/pm/Signature;
  
@@ -45,6 +45,14 @@ Subject: [PATCH] fix some miui apk sign
 +
 +    if-nez v0, :cond_0
 +
++    const-string v0, "com.xiaomi.pass"
++
++    invoke-virtual {v0, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v0
++
++    if-nez v0, :cond_0
++
 +    const-string v0, "com.xiaomi.miclick"
 +
 +    invoke-virtual {v0, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -64,7 +72,7 @@ Subject: [PATCH] fix some miui apk sign
      invoke-static {v1, v4}, Lcom/android/server/pm/PackageManagerService;->compareSignatures([Landroid/content/pm/Signature;[Landroid/content/pm/Signature;)I
  
      move-result v1
-@@ -26637,6 +26685,66 @@
+@@ -26637,6 +26693,76 @@
      .prologue
      const/4 v0, 0x0
  
@@ -99,6 +107,16 @@ Subject: [PATCH] fix some miui apk sign
 +    if-nez v1, :cond_1
 +
 +    const-string v1, "com.xiaomi.gamecenter"
++
++    iget-object v3, p2, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
++
++    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
++
++    move-result v1
++
++    if-nez v1, :cond_1
++
++    const-string v1, "com.xiaomi.pass"
 +
 +    iget-object v3, p2, Landroid/content/pm/PackageParser$Package;->packageName:Ljava/lang/String;
 +

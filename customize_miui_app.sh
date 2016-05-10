@@ -43,6 +43,7 @@ if [ $1 = "DeskClock" ];then
 fi
 
 if [ $1 = "miuisystem" ];then
+    sed -i '/  - 16/a\  - 17' $2/apktool.yml
     cp $1/jflte.xml $2/assets/device_features/
     cp $1/jgedlte.xml $2/assets/device_features/
 	applyPatch $1 $2
@@ -54,6 +55,8 @@ fi
 
 if [ $1 = "SecurityCenter" ];then
 	applyPatch $1 $2
+    sed -i '/  - 16/a\  - 18' $2/apktool.yml
+    sed -i '/  - 16/a\  - 17' $2/apktool.yml
 fi
 
 if [ $1 = "TeleService" ];then

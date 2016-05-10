@@ -13,10 +13,10 @@ Subject: [PATCH] fix Deskclock display string error
 +++ b/DeskClock/smali/com/android/deskclock/AlarmClockFragment.smali
 @@ -896,7 +896,7 @@
  
-     move-result-object v5
+     move-result-object v2
  
--    const v6, 0x10403eb
-+    sget v6, Lcom/android/internal/R$string;->delete:I
+-    const v3, 0x10403eb
++    sget v3, Lcom/android/internal/R$string;->delete:I
  
      invoke-virtual {p0}, Lcom/android/deskclock/AlarmClockFragment;->getFragmentManager()Landroid/app/FragmentManager;
  
@@ -35,10 +35,10 @@ Subject: [PATCH] fix Deskclock display string error
 +++ b/DeskClock/smali/com/android/deskclock/WorldClockFragment.smali
 @@ -425,7 +425,7 @@
  
-     move-result-object v5
+     move-result-object v2
  
--    const v6, 0x10403eb
-+    sget v6, Lcom/android/internal/R$string;->delete:I
+-    const v3, 0x10403eb
++    sget v3, Lcom/android/internal/R$string;->delete:I
  
      invoke-virtual {p0}, Lcom/android/deskclock/WorldClockFragment;->getFragmentManager()Landroid/app/FragmentManager;
  
