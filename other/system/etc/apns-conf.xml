@@ -7322,10 +7322,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="34"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7453,10 +7453,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="38"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7574,27 +7574,6 @@
         mmsc="http://mms1.live.vodafone.in/mms/"
         mmsport="9401"
         mmsproxy="10.10.1.100"
-        type="mms"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="IDEA Karnataka"
-        mcc="404"
-        mnc="44"
-        apn="internet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="IDEA Karnataka MMS"
-        mcc="404"
-        mnc="44"
-        apn="mmsc"
-        mmsc="http://10.4.42.21:8002"
-        mmsport="8080"
-        mmsproxy="10.4.42.15"
         type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
@@ -7751,10 +7730,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="51"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7830,10 +7809,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="53"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7862,10 +7841,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="54"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7894,10 +7873,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="55"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7967,10 +7946,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="57"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -7999,10 +7978,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="58"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8031,10 +8010,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="59"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8095,10 +8074,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="62"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8127,10 +8106,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="64"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8159,10 +8138,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="66"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8266,10 +8245,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="71"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8294,29 +8273,6 @@
         mnc="71"
         apn="bsnlnet"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="bsnllive"
-        mcc="404"
-        mnc="72"
-        apn="bsnllive"
-        port="8080"
-        proxy="10.220.67.131"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="bsnlmms"
-        mcc="404"
-        mnc="72"
-        apn="bsnlmms"
-        mmsc="http://bsnlmmsc.in:8514"
-        mmsport="8080"
-        mmsproxy="10.210.10.11"
-        type="mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8325,15 +8281,6 @@
         mcc="404"
         mnc="72"
         apn="bsnlnet"
-        type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-    />
-
-    <apn carrier="bsnllive"
-        mcc="404"
-        mnc="73"
-        apn="bsnllive"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8343,12 +8290,21 @@
 
     <apn carrier="bsnlmms"
         mcc="404"
-        mnc="73"
+        mnc="72"
         apn="bsnlmms"
         mmsc="http://bsnlmmsc.in:8514"
         mmsport="8080"
         mmsproxy="10.210.10.11"
         type="mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="bsnlnet"
+        mcc="404"
+        mnc="72"
+        apn="bsnlnet"
+        type="default,supl"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -8357,15 +8313,38 @@
         mcc="404"
         mnc="73"
         apn="bsnlnet"
+        port="8080"
+        proxy="10.220.67.131"
         type="default,supl"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlmms"
+        mcc="404"
+        mnc="73"
+        apn="bsnlmms"
+        mmsc="http://bsnlmmsc.in:8514"
+        mmsport="8080"
+        mmsproxy="10.210.10.11"
+        type="mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="bsnlnet"
+        mcc="404"
+        mnc="73"
+        apn="bsnlnet"
+        type="default,supl"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="74"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8394,10 +8373,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="75"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8426,10 +8405,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="76"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8458,10 +8437,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="77"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8531,10 +8510,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="79"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8563,10 +8542,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="80"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -8595,10 +8574,10 @@
         roaming_protocol="IPV4V6"
     />
 
-    <apn carrier="bsnllive"
+    <apn carrier="bsnlnet"
         mcc="404"
         mnc="81"
-        apn="bsnllive"
+        apn="bsnlnet"
         port="8080"
         proxy="10.220.67.131"
         type="default,supl"
@@ -9206,19 +9185,19 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="025"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="025"
         apn="TATA.DOCOMO.INTERNET"
         port="8080"
         proxy="10.124.94.7"
-    />
-
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="025"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
     />
 
     <apn carrier="TATA DOCOMO MMS"
@@ -9257,6 +9236,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="026"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="026"
@@ -9265,12 +9251,7 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="026"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
+
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9308,6 +9289,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="027"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="027"
@@ -9316,12 +9304,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="027"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9332,6 +9314,7 @@
         mmsproxy="10.124.26.94"
         type="mms"
     />
+
 
     <apn carrier="TATA DOCOMO DIVE-IN"
         mcc="405"
@@ -9349,6 +9332,7 @@
         type="default,supl"
     />
 
+
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
         mnc="028"
@@ -9358,6 +9342,7 @@
         mmsproxy="10.124.26.94"
         type="mms"
     />
+
 
     <apn carrier="TATA DOCOMO DIVE-IN"
         mcc="405"
@@ -9375,6 +9360,7 @@
         type="default,supl"
     />
 
+
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
         mnc="029"
@@ -9385,6 +9371,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="029"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="029"
@@ -9393,12 +9386,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="029"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9462,6 +9449,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="030"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="030"
@@ -9470,12 +9464,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="030"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9513,6 +9501,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="031"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="031"
@@ -9521,12 +9516,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="031"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9564,6 +9553,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="032"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="032"
@@ -9572,12 +9568,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="032"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9615,6 +9605,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="033"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="033"
@@ -9623,12 +9620,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="033"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9666,6 +9657,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="034"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="034"
@@ -9674,12 +9672,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="034"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9717,6 +9709,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="035"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="035"
@@ -9725,12 +9724,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="035"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9768,6 +9761,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="036"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="036"
@@ -9776,12 +9776,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="036"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9819,6 +9813,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="037"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="037"
@@ -9827,12 +9828,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="037"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9870,6 +9865,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="038"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="038"
@@ -9878,12 +9880,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="038"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9921,6 +9917,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="039"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="039"
@@ -9929,12 +9932,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="039"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -9998,6 +9995,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="040"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="040"
@@ -10006,12 +10010,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="040"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10049,6 +10047,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="041"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="041"
@@ -10057,12 +10062,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="041"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10100,6 +10099,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="042"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="042"
@@ -10108,12 +10114,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="042"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10151,6 +10151,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="043"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="043"
@@ -10159,12 +10166,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="043"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10202,6 +10203,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="044"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="044"
@@ -10210,12 +10218,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="044"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10253,6 +10255,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="045"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="045"
@@ -10261,12 +10270,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="045"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10304,6 +10307,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="046"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="046"
@@ -10312,12 +10322,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="046"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10355,6 +10359,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="047"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="047"
@@ -10363,12 +10374,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="047"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10848,6 +10853,13 @@
         type="default,supl"
     />​
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="25"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="25"
@@ -10856,12 +10868,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="25"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10871,6 +10877,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="26"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -10881,12 +10894,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="26"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10898,6 +10905,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="27"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="27"
@@ -10906,12 +10920,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="27"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10921,6 +10929,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="29"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -10931,12 +10946,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="29"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10948,6 +10957,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="30"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="30"
@@ -10956,12 +10972,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="30"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10971,6 +10981,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="31"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -10981,12 +10998,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="31"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -10998,6 +11009,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="32"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="32"
@@ -11006,12 +11024,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="32"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11021,6 +11033,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="33"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11031,12 +11050,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="33"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11048,6 +11061,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="34"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="34"
@@ -11056,12 +11076,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="34"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11071,6 +11085,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="35"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11081,12 +11102,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="35"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11098,6 +11113,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="36"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="36"
@@ -11106,12 +11128,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="36"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11121,6 +11137,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="37"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11131,12 +11154,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="37"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11148,6 +11165,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="38"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="38"
@@ -11156,12 +11180,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="38"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11171,6 +11189,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="39"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11181,12 +11206,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="39"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11198,6 +11217,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="40"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="40"
@@ -11206,12 +11232,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="40"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11221,6 +11241,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="41"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11231,12 +11258,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="41"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11248,6 +11269,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="42"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="42"
@@ -11256,12 +11284,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="42"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11271,6 +11293,13 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="43"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11281,12 +11310,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="43"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11298,6 +11321,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="44"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="44"
@@ -11306,12 +11336,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="44"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11323,6 +11347,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="45"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="45"
@@ -11331,12 +11362,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="45"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11348,6 +11373,13 @@
         type="mms"
     />
 
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="46"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
+    />
+
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
         mcc="405"
         mnc="46"
@@ -11356,12 +11388,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="46"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -11371,6 +11397,12 @@
         mmsport="8799"
         mmsproxy="10.124.26.94"
         type="mms"
+    />
+    <apn carrier="TATA DOCOMO INTERNET"
+        mcc="405"
+        mnc="47"
+        apn="TATA.DOCOMO.INTERNET"
+        type="default"
     />
 
     <apn carrier="TATA DOCOMO DIVE-IN WAP"
@@ -11381,12 +11413,6 @@
         proxy="10.124.94.7"
     />
 
-    <apn carrier="TATA DOCOMO INTERNET"
-        mcc="405"
-        mnc="47"
-        apn="TATA.DOCOMO.INTERNET"
-        type="default"
-    />
 
     <apn carrier="TATA DOCOMO MMS"
         mcc="405"
@@ -17609,6 +17635,13 @@
         mnc="152"
         apn="ims"
         type="ims"
+    />
+
+    <apn carrier="webe"
+        mcc="502"
+        mnc="153"
+        apn="webe"
+        type="default"
     />
 
     <apn carrier="Telstra Internet"

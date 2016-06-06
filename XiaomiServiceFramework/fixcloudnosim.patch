@@ -16,16 +16,16 @@ Subject: [PATCH 2/2] Sim Cloud
 -    if-gez v0, :cond_0
 +    if-ltz v0, :cond_0
  
-     const-string v1, "xmsf/SimStateReceiver"
+     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
  
 @@ -65,6 +65,7 @@
-     return-void
+     const/4 v0, 0x0
  
      :cond_0
 +    const/4 v0, 0x0
      invoke-static {v0, p3}, Lcom/xiaomi/activate/SysEventSink;->onSimStateChanged(IZ)V
  
-     goto :goto_0
+     :goto_0
 -- 
 1.7.10.4
 
